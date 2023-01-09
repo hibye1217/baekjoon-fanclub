@@ -1,0 +1,36 @@
+{
+	"id": 0, "idx": 22, "name": "연습 이름은 최대 100자 입니다.", "creator": "parkky",
+	"start": "2022.07.13. 14:15:00", "end": "2022.07.16. 17:18:00",
+	"problems": [
+		{ "id": 2808, "idx": "A", "name": "책 쌓기" },
+		{ "id": 3373, "idx": "B", "name": "Cards" },
+		{ "id": 5122, "idx": "C", "name": "Countdown" },
+		{ "id": 5133, "idx": "D", "name": "Recipes" },
+		{ "id": 5134, "idx": "E", "name": "Grocery Shopping" },
+		{ "id": 5181, "idx": "F", "name": "Overlap!" },
+		{ "id": 6786, "idx": "G", "name": "Blood Distribution" },
+		{ "id": 8016, "idx": "H", "name": "Insulator" },
+		{ "id": 9259, "idx": "I", "name": "Privacy Loss" },
+		{ "id": 16147, "idx": "J", "name": "Racial Discrimination" },
+		{ "id": 17637, "idx": "K", "name": "Count Squares" },
+		{ "id": 24063, "idx": "L", "name": "Guessing" },
+		{ "id": 24172, "idx": "M", "name": "Coloring" },
+		{ "id": 25141, "idx": "N", "name": "ŠIFRAT" }
+	],
+	"submissions": [
+		{ "user": "copyrat90", "id": "46140987", "idx": "17637", "verdict": "100점", "time": "2022.07.16. 13:58:34" },
+		{ "user": "index", "id": "46126914", "idx": "17637", "verdict": "100점", "time": "2022.07.15. 23:45:51" },
+		{ "user": "copyrat90", "id": "46097687", "idx": "3373", "verdict": "맞았습니다!!", "time": "2022.07.15. 14:39:48" },
+		{ "user": "dhyang24", "id": "46094471", "idx": "5134", "verdict": "맞았습니다!!", "time": "2022.07.15. 13:42:36" },
+		{ "user": "dhyang24", "id": "46094454", "idx": "5134", "verdict": "틀렸습니다", "time": "2022.07.15. 13:42:22" },
+		{ "user": "dhyang24", "id": "46094431", "idx": "5134", "verdict": "틀렸습니다", "time": "2022.07.15. 13:41:54" },
+		{ "user": "copyrat90", "id": "46037009", "idx": "5134", "verdict": "맞았습니다!!", "time": "2022.07.14. 13:41:13" },
+		{ "user": "copyrat90", "id": "46036985", "idx": "5134", "verdict": "출력 형식이 잘못되었습니다", "time": "2022.07.14. 13:40:54" },
+		{ "user": "dhyang24", "id": "45992819", "idx": "6786", "verdict": "틀렸습니다", "time": "2022.07.13. 16:46:21" },
+		{ "user": "dhyang24", "id": "45992736", "idx": "6786", "verdict": "틀렸습니다", "time": "2022.07.13. 16:45:30" },
+		{ "user": "dhyang24", "id": "45992406", "idx": "6786", "verdict": "틀렸습니다", "time": "2022.07.13. 16:41:29" },
+		{ "user": "dhyang24", "id": "45991660", "idx": "6786", "verdict": "틀렸습니다", "time": "2022.07.13. 16:32:36" },
+		{ "user": "dhyang24", "id": "45990197", "idx": "5122", "verdict": "맞았습니다!!", "time": "2022.07.13. 16:13:56" },
+		{ "user": "dhyang24", "id": "45990158", "idx": "5122", "verdict": "틀렸습니다", "time": "2022.07.13. 16:13:26" }
+	]
+}
