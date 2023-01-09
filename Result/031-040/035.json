@@ -1,0 +1,22 @@
+{
+	"id": 41, "idx": 35, "name": "Coders, Please Solve This!", "creator": "ai4youej",
+	"start": "2022.09.04. 12:00:00", "end": "2022.09.08. 21:00:00",
+	"problems": [
+		{ "id": 8692, "idx": "A", "name": "Sadzenie bulw" },
+		{ "id": 7475, "idx": "B", "name": "Factoring a Polynomial" },
+		{ "id": 3301, "idx": "C", "name": "FATBOY" },
+		{ "id": 13385, "idx": "D", "name": "Square" },
+		{ "id": 6744, "idx": "E", "name": "Parallelogram Counting" },
+		{ "id": 8789, "idx": "F", "name": "Poezja z gwiazdką" }
+	],
+	"submissions": [
+		{ "user": "wider93", "id": "48856788", "idx": "6744", "verdict": "맞았습니다!!", "time": "2022.09.07. 12:58:29" },
+		{ "user": "wider93", "id": "48856779", "idx": "6744", "verdict": "맞았습니다!!", "time": "2022.09.07. 12:58:15" },
+		{ "user": "wider93", "id": "48838548", "idx": "7475", "verdict": "맞았습니다!!", "time": "2022.09.06. 23:11:40" },
+		{ "user": "wizardrabbit", "id": "48758700", "idx": "13385", "verdict": "맞았습니다!!", "time": "2022.09.05. 14:56:15" },
+		{ "user": "wizardrabbit", "id": "48752036", "idx": "3301", "verdict": "맞았습니다!!", "time": "2022.09.05. 12:41:11" },
+		{ "user": "wider93", "id": "48710123", "idx": "8692", "verdict": "맞았습니다!!", "time": "2022.09.04. 14:26:39" },
+		{ "user": "wider93", "id": "48710046", "idx": "8692", "verdict": "런타임 에러 (ValueError)", "time": "2022.09.04. 14:25:04" },
+		{ "user": "wizardrabbit", "id": "48707265", "idx": "8692", "verdict": "맞았습니다!!", "time": "2022.09.04. 13:08:45" }
+	]
+}

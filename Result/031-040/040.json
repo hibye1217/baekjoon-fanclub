@@ -1,0 +1,35 @@
+{
+	"id": 47, "idx": 40, "name": "Double click to edit", "creator": "mingyu331",
+	"start": "2022.09.29. 01:00:00", "end": "2022.10.06. 00:00:00",
+	"problems": [
+		{ "id": 25093, "idx": "A", "name": "Double or One Thing" },
+		{ "id": 25358, "idx": "B", "name": "Deletive Editing" },
+		{ "id": 4788, "idx": "C", "name": "Double Dealing" },
+		{ "id": 16573, "idx": "D", "name": "Edit Distance" },
+		{ "id": 22898, "idx": "E", "name": "Double or NOTing" },
+		{ "id": 17861, "idx": "F", "name": "Taxed Editor" },
+		{ "id": 16041, "idx": "G", "name": "Double Clique" },
+		{ "id": 11503, "idx": "H", "name": "Tree Edit" }
+	],
+	"submissions": [
+		{ "user": "wider93", "id": "50101427", "idx": "4788", "verdict": "맞았습니다!!", "time": "2022.10.05. 09:44:51" },
+		{ "user": "wizardrabbit", "id": "50052472", "idx": "16573", "verdict": "시간 초과", "time": "2022.10.04. 10:58:12" },
+		{ "user": "wizardrabbit", "id": "49998843", "idx": "16573", "verdict": "맞았습니다!!", "time": "2022.10.03. 00:11:59" },
+		{ "user": "wizardrabbit", "id": "49998736", "idx": "16573", "verdict": "틀렸습니다", "time": "2022.10.03. 00:08:56" },
+		{ "user": "wizardrabbit", "id": "49994218", "idx": "16573", "verdict": "틀렸습니다", "time": "2022.10.02. 22:40:29" },
+		{ "user": "wizardrabbit", "id": "49992354", "idx": "16573", "verdict": "틀렸습니다", "time": "2022.10.02. 22:02:35" },
+		{ "user": "wizardrabbit", "id": "49991576", "idx": "25358", "verdict": "맞았습니다!!", "time": "2022.10.02. 21:45:37" },
+		{ "user": "wizardrabbit", "id": "49959403", "idx": "25093", "verdict": "25점", "time": "2022.10.02. 00:56:37" },
+		{ "user": "wizardrabbit", "id": "49914965", "idx": "25358", "verdict": "틀렸습니다", "time": "2022.09.30. 21:36:54" },
+		{ "user": "wizardrabbit", "id": "49914573", "idx": "25358", "verdict": "틀렸습니다", "time": "2022.09.30. 21:27:04" },
+		{ "user": "wider93", "id": "49875656", "idx": "25358", "verdict": "맞았습니다!!", "time": "2022.09.30. 00:14:58" },
+		{ "user": "hibye1217", "id": "49848323", "idx": "17861", "verdict": "맞았습니다!!", "time": "2022.09.29. 15:44:52" },
+		{ "user": "mnx", "id": "49845289", "idx": "25093", "verdict": "25점", "time": "2022.09.29. 14:58:06" },
+		{ "user": "wizardrabbit", "id": "49833228", "idx": "25358", "verdict": "틀렸습니다", "time": "2022.09.29. 10:14:30" },
+		{ "user": "wizardrabbit", "id": "49833116", "idx": "25093", "verdict": "틀렸습니다", "time": "2022.09.29. 10:11:01" },
+		{ "user": "iamgamja", "id": "49831220", "idx": "25093", "verdict": "틀렸습니다", "time": "2022.09.29. 08:47:28" },
+		{ "user": "iamgamja", "id": "49831143", "idx": "25093", "verdict": "틀렸습니다", "time": "2022.09.29. 08:39:47" },
+		{ "user": "dhyang24", "id": "49830675", "idx": "25358", "verdict": "맞았습니다!!", "time": "2022.09.29. 07:26:08" },
+		{ "user": "dhyang24", "id": "49830645", "idx": "25093", "verdict": "25점", "time": "2022.09.29. 07:20:19" }
+	]
+}
