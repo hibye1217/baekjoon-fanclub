@@ -1,0 +1,33 @@
+{
+	"id": 66, "idx": 59, "name": "연습 이름을 입력해 주세요.", "creator": "iamgamja",
+	"start": "2022.01.14. 22:00:00", "end": "2022.01.17. 22:00:00",
+	"problems": [
+		{ "id": 10103, "idx": "A", "name": "주사위 게임" },
+		{ "id": 26148, "idx": "B", "name": "세로 달력" },
+		{ "id": 5675, "idx": "C", "name": "시침과 분침" },
+		{ "id": 12871, "idx": "D", "name": "무한 문자열" },
+		{ "id": 17296, "idx": "E", "name": "But can you do it in 0.5x A presses?" },
+		{ "id": 26152, "idx": "F", "name": "플래피 버드 스코어링" },
+		{ "id": 9661, "idx": "G", "name": "돌 게임 7" },
+		{ "id": 11451, "idx": "H", "name": "팩맨" },
+		{ "id": 20210, "idx": "I", "name": "파일 탐색기" }
+	],
+	"submissions": [
+		{ "user": "wizardrabbit", "id": "54153430", "idx": "플래피 버드 스코어링", "verdict": "맞았습니다!!", "time": "2023.01.16. 02:45:09" },
+		{ "user": "wizardrabbit", "id": "54153427", "idx": "돌 게임 7", "verdict": "맞았습니다!!", "time": "2023.01.16. 02:44:56" },
+		{ "user": "wizardrabbit", "id": "54153400", "idx": "파일 탐색기", "verdict": "맞았습니다!!", "time": "2023.01.16. 02:43:18" },
+		{ "user": "xhdtlsid2", "id": "54144826", "idx": "주사위 게임", "verdict": "맞았습니다!!", "time": "2023.01.15. 23:10:26" },
+		{ "user": "sivcde0405", "id": "54119528", "idx": "주사위 게임", "verdict": "맞았습니다!!", "time": "2023.01.15. 16:07:05" },
+		{ "user": "pani", "id": "54105225", "idx": "주사위 게임", "verdict": "맞았습니다!!", "time": "2023.01.15. 10:42:17" },
+		{ "user": "pani", "id": "54105213", "idx": "돌 게임 7", "verdict": "맞았습니다!!", "time": "2023.01.15. 10:41:47" },
+		{ "user": "pani", "id": "54105188", "idx": "돌 게임 7", "verdict": "컴파일 에러", "time": "2023.01.15. 10:40:28" },
+		{ "user": "wizardrabbit", "id": "54100946", "idx": "But can you do it…", "verdict": "맞았습니다!!", "time": "2023.01.15. 03:07:25" },
+		{ "user": "wizardrabbit", "id": "54100940", "idx": "세로 달력", "verdict": "맞았습니다!!", "time": "2023.01.15. 03:07:01" },
+		{ "user": "wizardrabbit", "id": "54100858", "idx": "팩맨", "verdict": "맞았습니다!!", "time": "2023.01.15. 03:03:23" },
+		{ "user": "wizardrabbit", "id": "54097870", "idx": "시침과 분침", "verdict": "맞았습니다!!", "time": "2023.01.15. 01:10:35" },
+		{ "user": "wizardrabbit", "id": "54097842", "idx": "시침과 분침", "verdict": "틀렸습니다", "time": "2023.01.15. 01:09:54" },
+		{ "user": "wizardrabbit", "id": "54097565", "idx": "주사위 게임", "verdict": "맞았습니다!!", "time": "2023.01.15. 01:00:55" },
+		{ "user": "wizardrabbit", "id": "54097398", "idx": "무한 문자열", "verdict": "맞았습니다!!", "time": "2023.01.15. 00:55:43" },
+		{ "user": "wizardrabbit", "id": "54096940", "idx": "무한 문자열", "verdict": "틀렸습니다", "time": "2023.01.15. 00:44:17" }
+	]
+}
