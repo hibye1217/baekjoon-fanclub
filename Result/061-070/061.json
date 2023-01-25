@@ -1,0 +1,24 @@
+{
+	"id": 68, "idx": 61, "name": "설날 특집", "creator": "mnx",
+	"start": "2023.01.22. 00:00:00", "end": "2023.01.24. 23:59:00",
+	"problems": [
+		{ "id": 12201, "idx": "A", "name": "New Years Eve (Large)" },
+		{ "id": 27231, "idx": "B", "name": "2023년이 기대되는 이유" },
+		{ "id": 18886, "idx": "C", "name": "New Year and Permutation" },
+		{ "id": 20937, "idx": "D", "name": "떡국" },
+		{ "id": 12426, "idx": "E", "name": "윷놀이 (Large)" },
+		{ "id": 2488, "idx": "F", "name": "줄다리기" },
+		{ "id": 13254, "idx": "G", "name": "연휴" },
+		{ "id": 1375, "idx": "H", "name": "나이" }
+	],
+	"submissions": [
+		{ "user": "kirvy810", "id": "54636917", "idx": "떡국", "verdict": "맞았습니다!!", "time": "2023.01.24. 23:52:17" },
+		{ "user": "kirvy810", "id": "54636851", "idx": "떡국", "verdict": "맞았습니다!!", "time": "2023.01.24. 23:51:21" },
+		{ "user": "kirvy810", "id": "54636611", "idx": "떡국", "verdict": "맞았습니다!!", "time": "2023.01.24. 23:47:16" },
+		{ "user": "kaorin", "id": "54634736", "idx": "New Year and Perm…", "verdict": "맞았습니다!!", "time": "2023.01.24. 23:14:31" },
+		{ "user": "xhdtlsid2", "id": "54530630", "idx": "연휴", "verdict": "맞았습니다!!", "time": "2023.01.22. 18:17:28" },
+		{ "user": "iamgamja", "id": "54518662", "idx": "떡국", "verdict": "맞았습니다!!", "time": "2023.01.22. 11:43:13" },
+		{ "user": "rustiebeats", "id": "54513269", "idx": "떡국", "verdict": "맞았습니다!!", "time": "2023.01.22. 02:02:37" },
+		{ "user": "wizardrabbit", "id": "54512363", "idx": "New Years Eve (La…", "verdict": "맞았습니다!!", "time": "2023.01.22. 01:25:37" }
+	]
+}
