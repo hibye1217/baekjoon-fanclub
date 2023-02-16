@@ -1,16 +1,12 @@
 const problems = [
-	{ "id": 24183, "index": "A", "title": "Affischutskicket" },
-	{ "id": 6508, "index": "B", "title": "A Game with Marbles" },
-	{ "id": 2183, "index": "C", "title": "테니스 시합" },
-	{ "id": 3432, "index": "D", "title": "Game" },
-	{ "id": 24571, "index": "E", "title": "Good Groups" },
-	{ "id": 10096, "index": "F", "title": "세 친구" },
-	{ "id": 13994, "index": "G", "title": "Foreign Postcards" },
-	{ "id": 11695, "index": "H", "title": "표 게임" },
-	{ "id": 16831, "index": "I", "title": "Nim without Zero" },
-	{ "id": 15850, "index": "J", "title": "Random Number Generator" },
-	{ "id": 23047, "index": "K", "title": "여우 국수" },
-	{ "id": 21993, "index": "L", "title": "Is It Rated?" }
+	{ "id": 13189, "index": "A", "title": "Trick" },
+	{ "id": 21087, "index": "B", "title": "Thanks to MikeMirzayanov" },
+	{ "id": 14399, "index": "C", "title": "2연산" },
+	{ "id": 23363, "index": "D", "title": "HQ0-9+-INCOMPUTABLE?!" },
+	{ "id": 1635, "index": "E", "title": "1 또는 -1" },
+	{ "id": 24844, "index": "F", "title": "Guess the Array" },
+	{ "id": 25237, "index": "G", "title": "Word Ladder" },
+	{ "id": 24259, "index": "H", "title": "Monopoly" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
