@@ -1,15 +1,12 @@
 const problems = [
-	{ "id": 20170, "index": "A", "title": "Commemorative Dice" },
-	{ "id": 12723, "index": "B", "title": "Minimum Scalar Product (Small)" },
-	{ "id": 3474, "index": "C", "title": "교수가 된 현우" },
-	{ "id": 14011, "index": "D", "title": "Small PhD Restaurant" },
-	{ "id": 3981, "index": "E", "title": "큐브러버" },
-	{ "id": 17272, "index": "F", "title": "리그 오브 레전설 (Large)" },
-	{ "id": 14860, "index": "G", "title": "GCD 곱" },
-	{ "id": 21000, "index": "H", "title": "Archer Vlad" },
-	{ "id": 15715, "index": "I", "title": "배열과 gcd" },
-	{ "id": 3606, "index": "J", "title": "Cellular Automaton" },
-	{ "id": 12702, "index": "K", "title": "Endless Knight (Large)" }
+	{ "id": 21968, "index": "A", "title": "선린의 터를" },
+	{ "id": 5389, "index": "B", "title": "제곱근 작도" },
+	{ "id": 1089, "index": "C", "title": "스타트링크 타워" },
+	{ "id": 1601, "index": "D", "title": "바이너리 파워 비숍" },
+	{ "id": 2005, "index": "E", "title": "사발" },
+	{ "id": 1814, "index": "F", "title": "지붕 색칠하기" },
+	{ "id": 13407, "index": "G", "title": "Skinny Polygon" },
+	{ "id": 15773, "index": "H", "title": "Touch The Sky" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
