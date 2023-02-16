@@ -1,14 +1,16 @@
 const problems = [
-	{ "id": 20977, "index": "A", "title": "JOI ソート (JOI Sort)" },
-	{ "id": 22578, "index": "B", "title": "CatChecker" },
-	{ "id": 24114, "index": "C", "title": "DNA の合成 (DNA synthesizer)" },
-	{ "id": 22422, "index": "D", "title": "Airport Codes" },
-	{ "id": 18421, "index": "E", "title": "じゃんけん式 (Rock-Scissors-Paper Expression)" },
-	{ "id": 22449, "index": "F", "title": "Almost Same Substring" },
-	{ "id": 17777, "index": "G", "title": "Copy and Paste" },
-	{ "id": 22430, "index": "H", "title": "Broken Cipher Generator" },
-	{ "id": 22764, "index": "I", "title": "Keitai Message" },
-	{ "id": 22403, "index": "J", "title": "阿吽の呼吸" },
+	{ "id": 25044, "index": "A", "title": "에어컨" },
+	{ "id": 21980, "index": "B", "title": "비슷한 번호판" },
+	{ "id": 2641, "index": "C", "title": "다각형그리기" },
+	{ "id": 20923, "index": "D", "title": "숫자 할리갈리 게임" },
+	{ "id": 2651, "index": "E", "title": "자동차경주대회" },
+	{ "id": 10836, "index": "F", "title": "여왕벌" },
+	{ "id": 22343, "index": "G", "title": "괄호의 값 비교" },
+	{ "id": 2132, "index": "H", "title": "나무 위의 벌레" },
+	{ "id": 2505, "index": "I", "title": "두 번 뒤집기" },
+	{ "id": 12920, "index": "J", "title": "평범한 배낭 2" },
+	{ "id": 20560, "index": "K", "title": "맛집 탐방" },
+	{ "id": 13331, "index": "L", "title": "Planar Drawing" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
