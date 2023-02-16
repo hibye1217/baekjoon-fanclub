@@ -1,11 +1,5 @@
 # baekjoon-fanclub
-Baekjoon Online Judge [공식 팬클럽](https://www.acmicpc.net/group/14615)
-
-스코어보드를 위한 Archive인데
-스코어보드를 만드는 데 오래 걸릴 거 같고
-그 사이에 BOJ가 업데이트하면 어쩌지라는 불안에 미리 Archive해두는 제출 현황
-
-다른 데이터들은: [셋 제작자](https://www.acmicpc.net/group/board/view/14615/27869) / [사용된 문제](https://www.acmicpc.net/group/board/view/14615/28049)
+Baekjoon Online Judge [공식 팬클럽](https://www.acmicpc.net/group/14615) 데이터 저장소
 
 ## JSON 읽는 방식
 - id: 연습셋 번호 (URL 기준)
