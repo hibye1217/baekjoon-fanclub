@@ -1,20 +1,17 @@
 const problems = [
-	{ "id": 13322, "index": "A", "title": "접두사 배열" },
-	{ "id": 17358, "index": "B", "title": "복불복으로 지구 멸망" },
-	{ "id": 17296, "index": "C", "title": "But can you do it in 0.5x A presses?" },
-	{ "id": 10252, "index": "D", "title": "그리드 그래프" },
-	{ "id": 1117, "index": "E", "title": "색칠 1" },
-	{ "id": 15980, "index": "F", "title": "명상 방해꾼" },
-	{ "id": 9061, "index": "G", "title": "두 직사각형" },
-	{ "id": 1510, "index": "H", "title": "이등변 삼각형" },
-	{ "id": 10072, "index": "I", "title": "곤돌라 - 곤돌라 수열 확인" },
-	{ "id": 25087, "index": "J", "title": "Hamiltonian Tour" },
-	{ "id": 1882, "index": "K", "title": "분수 찾기" },
-	{ "id": 25026, "index": "L", "title": "구간들" },
-	{ "id": 18289, "index": "M", "title": "팀 연습 더" },
-	{ "id": 15364, "index": "N", "title": "Krov" },
-	{ "id": 1538, "index": "O", "title": "공 칠하기" },
-	{ "id": 23173, "index": "P", "title": "Flowerbed Redecoration" }
+	{ "id": 14564, "index": "1", "title": "두부 게임 (Tofu Game)" },
+	{ "id": 23568, "index": "2", "title": "Find the House" },
+	{ "id": 24913, "index": "3", "title": "개표" },
+	{ "id": 23567, "index": "4", "title": "Double Rainbow" },
+	{ "id": 24025, "index": "5", "title": "돌의 정령 줄세우기" },
+	{ "id": 23088, "index": "6", "title": "Aging" },
+	{ "id": 15571, "index": "7", "title": "블록 3" },
+	{ "id": 15678, "index": "8", "title": "연세워터파크" },
+	{ "id": 20161, "index": "9", "title": "왜 동전은 하나씩만 뒤집는 거야" },
+	{ "id": 13982, "index": "10", "title": "Shopping" },
+	{ "id": 24915, "index": "11", "title": "센터가 돋보여야 해" },
+	{ "id": 20556, "index": "12", "title": "둥둥섬 다리 재정비하기" },
+	{ "id": 19217, "index": "13", "title": "Jitterbug" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
