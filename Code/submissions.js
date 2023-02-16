@@ -1,16 +1,16 @@
 const problems = [
-	{ "id": 23530, "index": "A", "title": "Not A + B" },
-	{ "id": 11773, "index": "B", "title": "ESEJ" },
-	{ "id": 16956, "index": "C", "title": "늑대와 양" },
-	{ "id": 21869, "index": "D", "title": "Maximum Bishop" },
-	{ "id": 3529, "index": "E", "title": "Alien Communication Masterclass" },
-	{ "id": 13312, "index": "F", "title": "아크코사인은 믿음입니다" },
-	{ "id": 17546, "index": "G", "title": "Exits in Excess" },
-	{ "id": 16817, "index": "H", "title": "Ninja Map" },
-	{ "id": 19571, "index": "I", "title": "탐색 게임" },
-	{ "id": 2222, "index": "J", "title": "아이스크림" },
-	{ "id": 23060, "index": "K", "title": "백남이의 여행" },
-	{ "id": 23382, "index": "L", "title": "Hamiltooonian Hike" },
+	{ "id": 24183, "index": "A", "title": "Affischutskicket" },
+	{ "id": 6508, "index": "B", "title": "A Game with Marbles" },
+	{ "id": 2183, "index": "C", "title": "테니스 시합" },
+	{ "id": 3432, "index": "D", "title": "Game" },
+	{ "id": 24571, "index": "E", "title": "Good Groups" },
+	{ "id": 10096, "index": "F", "title": "세 친구" },
+	{ "id": 13994, "index": "G", "title": "Foreign Postcards" },
+	{ "id": 11695, "index": "H", "title": "표 게임" },
+	{ "id": 16831, "index": "I", "title": "Nim without Zero" },
+	{ "id": 15850, "index": "J", "title": "Random Number Generator" },
+	{ "id": 23047, "index": "K", "title": "여우 국수" },
+	{ "id": 21993, "index": "L", "title": "Is It Rated?" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
