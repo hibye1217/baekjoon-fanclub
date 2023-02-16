@@ -1,13 +1,14 @@
 const problems = [
-	{ "id": 11283, "index": "1", "title": "한글 2" },
-	{ "id": 2870, "index": "2", "title": "수학숙제" },
-	{ "id": 15725, "index": "3", "title": "다항함수의 미분" },
-	{ "id": 17214, "index": "4", "title": "다항 함수의 적분" },
-	{ "id": 1501, "index": "5", "title": "영어 읽기" },
-	{ "id": 14014, "index": "6", "title": "Dudu of English" },
-	{ "id": 21985, "index": "7", "title": "ASCII Automata Art" },
-	{ "id": 6531, "index": "8", "title": "이런 문제는 유치원생도 해결할 수 있어" },
-	{ "id": 18166, "index": "9", "title": "Evaluation" }
+	{ "id": 20977, "index": "A", "title": "JOI ソート (JOI Sort)" },
+	{ "id": 22578, "index": "B", "title": "CatChecker" },
+	{ "id": 24114, "index": "C", "title": "DNA の合成 (DNA synthesizer)" },
+	{ "id": 22422, "index": "D", "title": "Airport Codes" },
+	{ "id": 18421, "index": "E", "title": "じゃんけん式 (Rock-Scissors-Paper Expression)" },
+	{ "id": 22449, "index": "F", "title": "Almost Same Substring" },
+	{ "id": 17777, "index": "G", "title": "Copy and Paste" },
+	{ "id": 22430, "index": "H", "title": "Broken Cipher Generator" },
+	{ "id": 22764, "index": "I", "title": "Keitai Message" },
+	{ "id": 22403, "index": "J", "title": "阿吽の呼吸" },
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
