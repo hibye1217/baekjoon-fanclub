@@ -1,15 +1,13 @@
-let ans = "";
-const tag = document.getElementsByClassName('list-group')[0];
-let l = tag.childElementCount;
-for (let i = 0; i < l; i++){
-    const li = tag.children[i];
-    const link = li.children[0].href;
+const table = document.getElementsByClassName('list-group')[0].children;
 
-	const id = link.substr( link.indexOf('problem/') + 8 );
-	const idx = li.children[0].children[0].innerText;
-	const name = li.innerText.substr( li.innerText.indexOf('-') + 2 );
+let result = "";
+for (let i = 0; i < table.length; i++){
+	const tag = table[i].children[0];
 
-    // console.log(id, idx, name);
-	ans += '{ "id": ' + id + ', "idx": "' + idx + '", "name": "' + name + '" },\n'
+	const link = tag.href; const id = parseInt( link.substring( link.lastIndexOf('/')+1 ) );
+	const index = tag.children[0].innerText;
+	const text = tag.innerText; const title = text.substring( text.indexOf('-')+2 );
+
+	result += "{ \"id\": " + id + ", \"index\": \"" + index + "\", \"title\": \"" + title + "\" },\n";
 }
-console.log(ans)
+console.log(result);
