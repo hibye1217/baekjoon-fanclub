@@ -1,12 +1,13 @@
 const problems = [
-	{ "id": 13189, "index": "A", "title": "Trick" },
-	{ "id": 21087, "index": "B", "title": "Thanks to MikeMirzayanov" },
-	{ "id": 14399, "index": "C", "title": "2연산" },
-	{ "id": 23363, "index": "D", "title": "HQ0-9+-INCOMPUTABLE?!" },
-	{ "id": 1635, "index": "E", "title": "1 또는 -1" },
-	{ "id": 24844, "index": "F", "title": "Guess the Array" },
-	{ "id": 25237, "index": "G", "title": "Word Ladder" },
-	{ "id": 24259, "index": "H", "title": "Monopoly" }
+	{ "id": 11283, "index": "1", "title": "한글 2" },
+	{ "id": 2870, "index": "2", "title": "수학숙제" },
+	{ "id": 15725, "index": "3", "title": "다항함수의 미분" },
+	{ "id": 17214, "index": "4", "title": "다항 함수의 적분" },
+	{ "id": 1501, "index": "5", "title": "영어 읽기" },
+	{ "id": 14014, "index": "6", "title": "Dudu of English" },
+	{ "id": 21985, "index": "7", "title": "ASCII Automata Art" },
+	{ "id": 6531, "index": "8", "title": "이런 문제는 유치원생도 해결할 수 있어" },
+	{ "id": 18166, "index": "9", "title": "Evaluation" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
