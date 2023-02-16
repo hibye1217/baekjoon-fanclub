@@ -1,17 +1,15 @@
 const problems = [
-	{ "id": 11718, "index": "A", "title": "그대로 출력하기" },
-	{ "id": 11719, "index": "B", "title": "그대로 출력하기 2" },
-	{ "id": 24499, "index": "C", "title": "blobyum" },
-	{ "id": 24500, "index": "D", "title": "blobblush" },
-	{ "id": 19303, "index": "E", "title": "Aftermath" },
-	{ "id": 16891, "index": "F", "title": "탄성 충돌" },
-	{ "id": 16680, "index": "G", "title": "안수빈수" },
-	{ "id": 10220, "index": "H", "title": "Self Representing Seq" },
-	{ "id": 13728, "index": "I", "title": "행렬식과 GCD" },
-	{ "id": 13926, "index": "J", "title": "gcd(n, k) = 1" },
-	{ "id": 3752, "index": "K", "title": "최대공약수 행렬식" },
-	{ "id": 10350, "index": "L", "title": "은행" },
-	{ "id": 8878, "index": "M", "title": "Hey, Better Bettor" }
+	{ "id": 20170, "index": "A", "title": "Commemorative Dice" },
+	{ "id": 12723, "index": "B", "title": "Minimum Scalar Product (Small)" },
+	{ "id": 3474, "index": "C", "title": "교수가 된 현우" },
+	{ "id": 14011, "index": "D", "title": "Small PhD Restaurant" },
+	{ "id": 3981, "index": "E", "title": "큐브러버" },
+	{ "id": 17272, "index": "F", "title": "리그 오브 레전설 (Large)" },
+	{ "id": 14860, "index": "G", "title": "GCD 곱" },
+	{ "id": 21000, "index": "H", "title": "Archer Vlad" },
+	{ "id": 15715, "index": "I", "title": "배열과 gcd" },
+	{ "id": 3606, "index": "J", "title": "Cellular Automaton" },
+	{ "id": 12702, "index": "K", "title": "Endless Knight (Large)" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
