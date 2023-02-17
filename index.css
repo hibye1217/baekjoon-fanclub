@@ -1,0 +1,3 @@
+table{ border-collapse: collapse; }
+tr{ line-height: 200% }
+td,th{ border: 1px solid black; font-family: 'Open Sans' }
