@@ -4432,7 +4432,7 @@
 	"id": 72, "order": 65, "rated": true,
 	"title": "Human-computer interaction", "creator": "xhdtlsid2",
 	"startTime": 1676199600, "endTime": 1676631600,
-	"links": [ "" ],
+	"links": [ "https://wandbox.org/permlink/9yjwpViEJPpyncEk" ],
 	"problems": [
 		{ "id": 26171, "index": "A", "title": "An Interactive Problem" },
 		{ "id": 24239, "index": "B", "title": "Coins" },
