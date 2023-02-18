@@ -1,16 +1,15 @@
 const problems = [
-	{ "id": 25044, "index": "A", "title": "에어컨" },
-	{ "id": 21980, "index": "B", "title": "비슷한 번호판" },
-	{ "id": 2641, "index": "C", "title": "다각형그리기" },
-	{ "id": 20923, "index": "D", "title": "숫자 할리갈리 게임" },
-	{ "id": 2651, "index": "E", "title": "자동차경주대회" },
-	{ "id": 10836, "index": "F", "title": "여왕벌" },
-	{ "id": 22343, "index": "G", "title": "괄호의 값 비교" },
-	{ "id": 2132, "index": "H", "title": "나무 위의 벌레" },
-	{ "id": 2505, "index": "I", "title": "두 번 뒤집기" },
-	{ "id": 12920, "index": "J", "title": "평범한 배낭 2" },
-	{ "id": 20560, "index": "K", "title": "맛집 탐방" },
-	{ "id": 13331, "index": "L", "title": "Planar Drawing" }
+	{ "id": 26171, "index": "A", "title": "An Interactive Problem" },
+	{ "id": 24239, "index": "B", "title": "Coins" },
+	{ "id": 19554, "index": "C", "title": "Guess the number" },
+	{ "id": 27417, "index": "D", "title": "Interactive Number Guessing" },
+	{ "id": 25907, "index": "E", "title": "양과 늑대" },
+	{ "id": 21336, "index": "F", "title": "Cheating" },
+	{ "id": 22958, "index": "G", "title": "안산 탐지기" },
+	{ "id": 20234, "index": "H", "title": "Corrupted Sort" },
+	{ "id": 25363, "index": "I", "title": "Interactive Treasure Hunt" },
+	{ "id": 3503, "index": "J", "title": "Interactive Permutation Guessing" },
+	{ "id": 23072, "index": "K", "title": "Secret Sequence" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
