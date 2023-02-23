@@ -1,15 +1,19 @@
 const problems = [
-	{ "id": 26171, "index": "A", "title": "An Interactive Problem" },
-	{ "id": 24239, "index": "B", "title": "Coins" },
-	{ "id": 19554, "index": "C", "title": "Guess the number" },
-	{ "id": 27417, "index": "D", "title": "Interactive Number Guessing" },
-	{ "id": 25907, "index": "E", "title": "양과 늑대" },
-	{ "id": 21336, "index": "F", "title": "Cheating" },
-	{ "id": 22958, "index": "G", "title": "안산 탐지기" },
-	{ "id": 20234, "index": "H", "title": "Corrupted Sort" },
-	{ "id": 25363, "index": "I", "title": "Interactive Treasure Hunt" },
-	{ "id": 3503, "index": "J", "title": "Interactive Permutation Guessing" },
-	{ "id": 23072, "index": "K", "title": "Secret Sequence" }
+	{ "id": 11504, "index": "A", "title": "돌려 돌려 돌림판!" },
+	{ "id": 2949, "index": "B", "title": "45도" },
+	{ "id": 11811, "index": "C", "title": "데스스타" },
+	{ "id": 16924, "index": "D", "title": "십자가 찾기" },
+	{ "id": 2780, "index": "E", "title": "비밀번호" },
+	{ "id": 13140, "index": "F", "title": "Hello World!" },
+	{ "id": 17232, "index": "G", "title": "생명 게임" },
+	{ "id": 13018, "index": "H", "title": "특이한 수열" },
+	{ "id": 17454, "index": "I", "title": "갓" },
+	{ "id": 11900, "index": "J", "title": "차이 그래프" },
+	{ "id": 12287, "index": "K", "title": "해밀턴 경로" },
+	{ "id": 16122, "index": "L", "title": "Unary" },
+	{ "id": 5000, "index": "M", "title": "빵 정렬" },
+	{ "id": 2486, "index": "N", "title": "그레이 코드" },
+	{ "id": 16126, "index": "O", "title": "동아리방 확장" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });

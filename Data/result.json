@@ -4500,5 +4500,31 @@
 		{ "id": 2486, "index": "N", "title": "그레이 코드" },
 		{ "id": 16126, "index": "O", "title": "동아리방 확장" }
 	],
-	"submissions": []
+	"submissions": [
+		{ "handle": "wizardrabbit", "id": 56052753, "problem": "F", "verdict": "WA", "time": 1676706093 },
+		{ "handle": "wizardrabbit", "id": 56052829, "problem": "F", "verdict": "WA", "time": 1676706168 },
+		{ "handle": "wizardrabbit", "id": 56053508, "problem": "F", "verdict": "AC", "time": 1676706864 },
+		{ "handle": "kirvy810", "id": 56063563, "problem": "C", "verdict": "AC", "time": 1676719102 },
+		{ "handle": "kirvy810", "id": 56063700, "problem": "C", "verdict": "AC", "time": 1676719299 },
+		{ "handle": "kirvy810", "id": 56063749, "problem": "C", "verdict": "AC", "time": 1676719368 },
+		{ "handle": "hibye1217", "id": 56091501, "problem": "O", "verdict": "AC", "time": 1676783312 },
+		{ "handle": "kirvy810", "id": 56101156, "problem": "C", "verdict": "AC", "time": 1676794086 },
+		{ "handle": "kirvy810", "id": 56101184, "problem": "C", "verdict": "AC", "time": 1676794107 },
+		{ "handle": "kirvy810", "id": 56101213, "problem": "C", "verdict": "AC", "time": 1676794129 },
+		{ "handle": "kirvy810", "id": 56101252, "problem": "C", "verdict": "CE", "time": 1676794167 },
+		{ "handle": "kirvy810", "id": 56101268, "problem": "C", "verdict": "CE", "time": 1676794183 },
+		{ "handle": "kaorin", "id": 56111140, "problem": "H", "verdict": "AC", "time": 1676805977 },
+		{ "handle": "kaorin", "id": 56157516, "problem": "I", "verdict": "WA", "time": 1676880339 },
+		{ "handle": "kaorin", "id": 56158160, "problem": "I", "verdict": "AC", "time": 1676880749 },
+		{ "handle": "kaorin", "id": 56162371, "problem": "J", "verdict": "WA", "time": 1676883698 },
+		{ "handle": "hibye1217", "id": 56164662, "problem": "N", "verdict": "WA", "time": 1676886500 },
+		{ "handle": "hibye1217", "id": 56164929, "problem": "N", "verdict": "RTE", "time": 1676886819 },
+		{ "handle": "hibye1217", "id": 56165030, "problem": "N", "verdict": "AC", "time": 1676886941 },
+		{ "handle": "hibye1217", "id": 56210994, "problem": "M", "verdict": "AC", "time": 1676958543 },
+		{ "handle": "kirvy810", "id": 56234348, "problem": "H", "verdict": "WA", "time": 1676977394 },
+		{ "handle": "kirvy810", "id": 56234377, "problem": "H", "verdict": "AC", "time": 1676977424 },
+		{ "handle": "hibye1217", "id": 56270367, "problem": "L", "verdict": "AC", "time": 1677038468 },
+		{ "handle": "xhdtlsid2", "id": 56297847, "problem": "L", "verdict": "AC", "time": 1677063726 },
+		{ "handle": "xhdtlsid2", "id": 56305836, "problem": "K", "verdict": "AC", "time": 1677071683 }
+	]
 }]
