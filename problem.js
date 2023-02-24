@@ -13,6 +13,7 @@ async function main(){
 	let res = [];
 	for (let i = 0; i < len; i++){
 		const set = result[i];
+		if (set.problems === undefined){ continue; }
 
 		let map = {};
 
