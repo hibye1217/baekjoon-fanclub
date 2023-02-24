@@ -4478,11 +4478,10 @@
 	]
 },
 {
-	"incomplete": true,
 	"id": 73, "order": 66, "rated": true,
 	"title": "s5..p1", "creator": "jh05013",
 	"startTime": 1676700480, "endTime": 1677132480,
-	"links": [ "" ],
+	"links": [ "https://wandbox.org/permlink/GavtD81wKZvzNLa7" ],
 	"problems": [
 		{ "id": 11504, "index": "A", "title": "돌려 돌려 돌림판!" },
 		{ "id": 2949, "index": "B", "title": "45도" },
@@ -4527,4 +4526,9 @@
 		{ "handle": "xhdtlsid2", "id": 56297847, "problem": "L", "verdict": "AC", "time": 1677063726 },
 		{ "handle": "xhdtlsid2", "id": 56305836, "problem": "K", "verdict": "AC", "time": 1677071683 }
 	]
+},
+{
+	"incomplete": true,
+	"order": 67, "rated": true,
+	"creator": "kirvy810"
 }]
