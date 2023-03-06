@@ -1,30 +1,11 @@
 const problems = [
-	{ "id": 9762, "index": "A", "title": "โรงงานลูกกวาด (Candy Factory)" },
-	{ "id": 10459, "index": "B", "title": "Compressed Words?" },
-	{ "id": 21198, "index": "C", "title": "Arithmetic Decoding" },
-	{ "id": 5390, "index": "D", "title": "Gene Shuffle" },
-	{ "id": 5092, "index": "E", "title": "Air Old Zeeland" },
-	{ "id": 5106, "index": "F", "title": "Target" },
-	{ "id": 4389, "index": "G", "title": "Demerit Points" },
-	{ "id": 23301, "index": "H", "title": "스터디 시간 정하기 2" },
-	{ "id": 12809, "index": "I", "title": "Train in a Tunnel" },
-	{ "id": 11202, "index": "J", "title": "Flag Quiz" },
-	{ "id": 7348, "index": "K", "title": "테이블 옮기기" },
-	{ "id": 9491, "index": "L", "title": "Politics" },
-	{ "id": 17901, "index": "M", "title": "Awkward Party" },
-	{ "id": 9436, "index": "N", "title": "Round Robin" },
-	{ "id": 15030, "index": "O", "title": "Deranging Hat" },
-	{ "id": 27080, "index": "P", "title": "Cow Brainiacs" },
-	{ "id": 21325, "index": "Q", "title": "Free food" },
-	{ "id": 7967, "index": "R", "title": "Balance" },
-	{ "id": 25989, "index": "S", "title": "Jabbing Jets" },
-	{ "id": 4227, "index": "T", "title": "Smeech" },
-	{ "id": 6716, "index": "U", "title": "Collecting Beepers" },
-	{ "id": 7669, "index": "V", "title": "Go" },
-	{ "id": 5992, "index": "W", "title": "The Leisurely Stroll" },
-	{ "id": 6676, "index": "X", "title": "Inglish-Number Translator" },
-	{ "id": 8184, "index": "Y", "title": "Guilds" },
-	{ "id": 11805, "index": "Z", "title": "Special Christmas Tree" }
+	{ "id": 27487, "index": "A", "title": "One and Two" },
+	{ "id": 16086, "index": "B", "title": "Дайн" },
+	{ "id": 3550, "index": "C", "title": "Auxiliary Question of the Universe" },
+	{ "id": 1034, "index": "D", "title": "램프" },
+	{ "id": 23545, "index": "E", "title": "Liquid Cats" },
+	{ "id": 26656, "index": "F", "title": "점프킹" },
+	{ "id": 23407, "index": "G", "title": "Board Trick" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
