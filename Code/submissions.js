@@ -1,11 +1,13 @@
 const problems = [
-	{ "id": 27487, "index": "A", "title": "One and Two" },
-	{ "id": 16086, "index": "B", "title": "Дайн" },
-	{ "id": 3550, "index": "C", "title": "Auxiliary Question of the Universe" },
-	{ "id": 1034, "index": "D", "title": "램프" },
-	{ "id": 23545, "index": "E", "title": "Liquid Cats" },
-	{ "id": 26656, "index": "F", "title": "점프킹" },
-	{ "id": 23407, "index": "G", "title": "Board Trick" }
+	{ "id": 24912, "index": "A", "title": "카드 색칠" },
+	{ "id": 24913, "index": "B", "title": "개표" },
+	{ "id": 26607, "index": "C", "title": "시로코와 은행털기" },
+	{ "id": 24025, "index": "D", "title": "돌의 정령 줄세우기" },
+	{ "id": 24914, "index": "E", "title": "Split the SSHS" },
+	{ "id": 26615, "index": "F", "title": "다오의 행사 계획하기" },
+	{ "id": 20560, "index": "G", "title": "맛집 탐방" },
+	{ "id": 24026, "index": "H", "title": "기차 여행" },
+	{ "id": 26610, "index": "I", "title": "돌게임과 쿼리" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
