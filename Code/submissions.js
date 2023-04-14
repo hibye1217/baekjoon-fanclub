@@ -1,15 +1,17 @@
 const problems = [
-	{ "id": 20944, "index": "A", "title": "팰린드롬 척화비" },
-	{ "id": 16341, "index": "B", "title": "Horsemeet" },
-	{ "id": 14281, "index": "C", "title": "볼록 수열" },
-	{ "id": 1808, "index": "D", "title": "숌작업" },
-	{ "id": 4237, "index": "E", "title": "비 단조성" },
-	{ "id": 18153, "index": "F", "title": "Coloring Contention" },
-	{ "id": 3870, "index": "G", "title": "Find the Multiples" },
-	{ "id": 11307, "index": "H", "title": "String Game" },
-	{ "id": 14368, "index": "I", "title": "Fashion Police (Large)" },
-	{ "id": 10682, "index": "J", "title": "Everlasting -One-" },
-	{ "id": 20234, "index": "K", "title": "Corrupted Sort" }
+	{ "id": 16485, "index": "A", "title": "작도하자! - ②" },
+	{ "id": 16478, "index": "B", "title": "원의 분할" },
+	{ "id": 22290, "index": "C", "title": "lattice" },
+	{ "id": 20206, "index": "D", "title": "푸앙이가 길을 건너간 이유" },
+	{ "id": 1711, "index": "E", "title": "직각삼각형" },
+	{ "id": 9553, "index": "F", "title": "양궁" },
+	{ "id": 2175, "index": "G", "title": "땅 자르기" },
+	{ "id": 16115, "index": "H", "title": "팬이에요" },
+	{ "id": 20032, "index": "I", "title": "Sewing Graph" },
+	{ "id": 1688, "index": "J", "title": "지민이의 테러" },
+	{ "id": 1858, "index": "K", "title": "기울기가 가장 큰 두 점" },
+	{ "id": 22975, "index": "L", "title": "도시 계획" },
+	{ "id": 9374, "index": "M", "title": "감시 카메라" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
