@@ -1,16 +1,15 @@
 const problems = [
-	{ "id": 18742, "index": "A", "title": "Avg" },
-	{ "id": 20772, "index": "B", "title": "Scheduler" },
-	{ "id": 25492, "index": "C", "title": "전깃줄 연결" },
-	{ "id": 21959, "index": "D", "title": "Subway" },
-	{ "id": 16190, "index": "E", "title": "Rising Sun" },
-	{ "id": 27480, "index": "F", "title": "Even Harder" },
-	{ "id": 13873, "index": "G", "title": "Hotel Rewards" },
-	{ "id": 9912, "index": "H", "title": "Lexical" },
-	{ "id": 25559, "index": "I", "title": "패스" },
-	{ "id": 23767, "index": "J", "title": "Access Denied" },
-	{ "id": 25999, "index": "K", "title": "House Numbering" },
-	{ "id": 18735, "index": "L", "title": "Balls" }
+	{ "id": 24727, "index": "A", "title": "인지융~" },
+	{ "id": 14556, "index": "B", "title": "Balance" },
+	{ "id": 10564, "index": "C", "title": "팔굽혀펴기" },
+	{ "id": 3366, "index": "D", "title": "수열 줄이기" },
+	{ "id": 17834, "index": "E", "title": "사자와 토끼" },
+	{ "id": 8196, "index": "F", "title": "The Minima Game" },
+	{ "id": 19541, "index": "G", "title": "역학 조사" },
+	{ "id": 25638, "index": "H", "title": "트리와 경로 개수 쿼리" },
+	{ "id": 12776, "index": "I", "title": "Swap Space" },
+	{ "id": 24043, "index": "J", "title": "XOR 기계" },
+	{ "id": 11848, "index": "K", "title": "Schools" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
