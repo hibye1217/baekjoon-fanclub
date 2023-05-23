@@ -1,15 +1,18 @@
 const problems = [
-	{ "id": 24727, "index": "A", "title": "인지융~" },
-	{ "id": 14556, "index": "B", "title": "Balance" },
-	{ "id": 10564, "index": "C", "title": "팔굽혀펴기" },
-	{ "id": 3366, "index": "D", "title": "수열 줄이기" },
-	{ "id": 17834, "index": "E", "title": "사자와 토끼" },
-	{ "id": 8196, "index": "F", "title": "The Minima Game" },
-	{ "id": 19541, "index": "G", "title": "역학 조사" },
-	{ "id": 25638, "index": "H", "title": "트리와 경로 개수 쿼리" },
-	{ "id": 12776, "index": "I", "title": "Swap Space" },
-	{ "id": 24043, "index": "J", "title": "XOR 기계" },
-	{ "id": 11848, "index": "K", "title": "Schools" }
+	{ "id": 28038, "index": "A", "title": "2차원 좌표변환" },
+	{ "id": 1262, "index": "B", "title": "알파벳 다이아몬드" },
+	{ "id": 27943, "index": "C", "title": "가지 사진 찾기" },
+	{ "id": 28016, "index": "D", "title": "경품 추첨" },
+	{ "id": 4868, "index": "E", "title": "Mix and Build" },
+	{ "id": 26525, "index": "F", "title": "빙고" },
+	{ "id": 3678, "index": "G", "title": "카탄의 개척자" },
+	{ "id": 12985, "index": "H", "title": "비밀 회선" },
+	{ "id": 10523, "index": "I", "title": "직선 찾기" },
+	{ "id": 10729, "index": "J", "title": "업적의 노예 1" },
+	{ "id": 24271, "index": "K", "title": "xor²" },
+	{ "id": 28032, "index": "L", "title": "Field Day" },
+	{ "id": 23046, "index": "M", "title": "큰 수 뒤집기" },
+	{ "id": 16749, "index": "N", "title": "Sixth Sense" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
