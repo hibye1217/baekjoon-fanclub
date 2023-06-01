@@ -1,18 +1,13 @@
 const problems = [
-	{ "id": 28038, "index": "A", "title": "2차원 좌표변환" },
-	{ "id": 1262, "index": "B", "title": "알파벳 다이아몬드" },
-	{ "id": 27943, "index": "C", "title": "가지 사진 찾기" },
-	{ "id": 28016, "index": "D", "title": "경품 추첨" },
-	{ "id": 4868, "index": "E", "title": "Mix and Build" },
-	{ "id": 26525, "index": "F", "title": "빙고" },
-	{ "id": 3678, "index": "G", "title": "카탄의 개척자" },
-	{ "id": 12985, "index": "H", "title": "비밀 회선" },
-	{ "id": 10523, "index": "I", "title": "직선 찾기" },
-	{ "id": 10729, "index": "J", "title": "업적의 노예 1" },
-	{ "id": 24271, "index": "K", "title": "xor²" },
-	{ "id": 28032, "index": "L", "title": "Field Day" },
-	{ "id": 23046, "index": "M", "title": "큰 수 뒤집기" },
-	{ "id": 16749, "index": "N", "title": "Sixth Sense" }
+	{ "id": 27970, "index": "A", "title": "OX" },
+	{ "id": 27945, "index": "B", "title": "슬슬 가지를 먹지 않으면 죽는다" },
+	{ "id": 28076, "index": "C", "title": "멀티탭 충분하다" },
+	{ "id": 28119, "index": "D", "title": "Traveling SCCC President" },
+	{ "id": 28072, "index": "E", "title": "K512에서 피자 먹기" },
+	{ "id": 27728, "index": "F", "title": "개구리와 쿼리" },
+	{ "id": 27653, "index": "G", "title": "최소 트리 분할" },
+	{ "id": 27876, "index": "H", "title": "제곱수 덱 1" },
+	{ "id": 27954, "index": "I", "title": "낱말 퍼즐" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });

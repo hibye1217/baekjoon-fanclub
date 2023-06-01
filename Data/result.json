@@ -5524,7 +5524,54 @@
 	]
 },
 {
-	"incomplete": true,
 	"id": 88, "order": 81, "rated": true,
-	"title": "최신출제경향", "creator": "pjshwa"
+	"title": "최신출제경향", "creator": "pjshwa",
+	"startTime": 1684871820, "endTime": 1685394000,
+	"links": [ "https://wandbox.org/permlink/l5c37u97aVPXsLfA" ],
+	"problems": [
+		{ "id": 27970, "index": "A", "title": "OX" },
+		{ "id": 27945, "index": "B", "title": "슬슬 가지를 먹지 않으면 죽는다" },
+		{ "id": 28076, "index": "C", "title": "멀티탭 충분하다" },
+		{ "id": 28119, "index": "D", "title": "Traveling SCCC President" },
+		{ "id": 28072, "index": "E", "title": "$K$512에서 피자 먹기" },
+		{ "id": 27728, "index": "F", "title": "개구리와 쿼리" },
+		{ "id": 27653, "index": "G", "title": "최소 트리 분할" },
+		{ "id": 27876, "index": "H", "title": "제곱수 덱 1" },
+		{ "id": 27954, "index": "I", "title": "낱말 퍼즐" }
+	],
+	"submissions": [
+		{ "handle": "hibye1217", "id": 61212740, "problem": "A", "verdict": "AC", "time": 1684882816 },
+		{ "handle": "kaorin", "id": 61229027, "problem": "A", "verdict": "AC", "time": 1684908953 },
+		{ "handle": "kaorin", "id": 61229644, "problem": "B", "verdict": "AC", "time": 1684909623 },
+		{ "handle": "kaorin", "id": 61230454, "problem": "C", "verdict": "WA", "time": 1684910364 },
+		{ "handle": "kaorin", "id": 61231633, "problem": "C", "verdict": "WA", "time": 1684911479 },
+		{ "handle": "kaorin", "id": 61231812, "problem": "C", "verdict": "WA", "time": 1684911675 },
+		{ "handle": "kaorin", "id": 61232674, "problem": "C", "verdict": "WA", "time": 1684912488 },
+		{ "handle": "tlsdydaud1", "id": 61238060, "problem": "A", "verdict": "AC", "time": 1684917755 },
+		{ "handle": "tlsdydaud1", "id": 61239250, "problem": "H", "verdict": "WA", "time": 1684919127 },
+		{ "handle": "tlsdydaud1", "id": 61239283, "problem": "H", "verdict": "WA", "time": 1684919181 },
+		{ "handle": "tlsdydaud1", "id": 61239320, "problem": "H", "verdict": "AC", "time": 1684919221 },
+		{ "handle": "jh05013", "id": 61241788, "problem": "E", "verdict": "AC", "time": 1684922992 },
+		{ "handle": "tlsdydaud1", "id": 61242762, "problem": "G", "verdict": "AC", "time": 1684924512 },
+		{ "handle": "rustiebeats", "id": 61247753, "problem": "F", "verdict": "AC", "time": 1684931048 },
+		{ "handle": "wizardrabbit", "id": 61258252, "problem": "C", "verdict": "WA", "time": 1684946683 },
+		{ "handle": "wizardrabbit", "id": 61258870, "problem": "C", "verdict": "WA", "time": 1684949029 },
+		{ "handle": "wizardrabbit", "id": 61258893, "problem": "C", "verdict": "AC", "time": 1684949192 },
+		{ "handle": "hibye1217", "id": 61261550, "problem": "D", "verdict": "AC", "time": 1684973509 },
+		{ "handle": "pjshwa", "id": 61265136, "problem": "D", "verdict": "AC", "time": 1684980027 },
+		{ "handle": "jh05013", "id": 61291611, "problem": "I", "verdict": "AC", "time": 1685013642 },
+		{ "handle": "seonah", "id": 61332841, "problem": "D", "verdict": "AC", "time": 1685096000 },
+		{ "handle": "hibye1217", "id": 61339105, "problem": "B", "verdict": "AC", "time": 1685107229 },
+		{ "handle": "jh05013", "id": 61359627, "problem": "C", "verdict": "AC", "time": 1685170107 },
+		{ "handle": "xhdtlsid2", "id": 61378215, "problem": "I", "verdict": "WA", "time": 1685197613 },
+		{ "handle": "xhdtlsid2", "id": 61378858, "problem": "I", "verdict": "AC", "time": 1685198457 },
+		{ "handle": "pjshwa", "id": 61386653, "problem": "E", "verdict": "AC", "time": 1685236888 },
+		{ "handle": "jh05013", "id": 61393153, "problem": "F", "verdict": "AC", "time": 1685251739 },
+		{ "handle": "wapas", "id": 61397879, "problem": "A", "verdict": "AC", "time": 1685258539 }
+	]
+},
+{
+	"incomplete": true,
+	"id": 89, "order": 82, "rated": true,
+	"title": "다이아 하나 정도는 넣어도 된다고 생각해요...", "creator": "kaorin"
 }]
