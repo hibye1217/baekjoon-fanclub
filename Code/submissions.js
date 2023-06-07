@@ -1,13 +1,17 @@
 const problems = [
-	{ "id": 27970, "index": "A", "title": "OX" },
-	{ "id": 27945, "index": "B", "title": "슬슬 가지를 먹지 않으면 죽는다" },
-	{ "id": 28076, "index": "C", "title": "멀티탭 충분하다" },
-	{ "id": 28119, "index": "D", "title": "Traveling SCCC President" },
-	{ "id": 28072, "index": "E", "title": "K512에서 피자 먹기" },
-	{ "id": 27728, "index": "F", "title": "개구리와 쿼리" },
-	{ "id": 27653, "index": "G", "title": "최소 트리 분할" },
-	{ "id": 27876, "index": "H", "title": "제곱수 덱 1" },
-	{ "id": 27954, "index": "I", "title": "낱말 퍼즐" }
+	{ "id": 28126, "index": "A", "title": "Space-A" },
+	{ "id": 28053, "index": "B", "title": "Simple Game" },
+	{ "id": 22880, "index": "C", "title": "봉화대" },
+	{ "id": 5463, "index": "D", "title": "건포도" },
+	{ "id": 10749, "index": "E", "title": "Superbull" },
+	{ "id": 18267, "index": "F", "title": "Milk Visits" },
+	{ "id": 23820, "index": "G", "title": "MEX" },
+	{ "id": 15708, "index": "H", "title": "미네크래프트" },
+	{ "id": 2220, "index": "I", "title": "힙 정렬" },
+	{ "id": 10605, "index": "J", "title": "드래곤 죽이기" },
+	{ "id": 1273, "index": "K", "title": "샷" },
+	{ "id": 25259, "index": "L", "title": "Art Collections" },
+	{ "id": 27877, "index": "M", "title": "제곱수 덱 2" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
