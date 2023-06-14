@@ -5533,7 +5533,7 @@
 		{ "id": 27945, "index": "B", "title": "슬슬 가지를 먹지 않으면 죽는다" },
 		{ "id": 28076, "index": "C", "title": "멀티탭 충분하다" },
 		{ "id": 28119, "index": "D", "title": "Traveling SCCC President" },
-		{ "id": 28072, "index": "E", "title": "$K$512에서 피자 먹기" },
+		{ "id": 28072, "index": "E", "title": "\\(K\\)512에서 피자 먹기" },
 		{ "id": 27728, "index": "F", "title": "개구리와 쿼리" },
 		{ "id": 27653, "index": "G", "title": "최소 트리 분할" },
 		{ "id": 27876, "index": "H", "title": "제곱수 덱 1" },
@@ -5647,7 +5647,43 @@
 	]
 },
 {
-	"incomplete": true,
 	"id": 90, "order": 83, "rated": true,
-	"title": "곰이 등장하는 문제", "creator": "pjshwa"
+	"title": "곰이 등장하는 문제", "creator": "pjshwa",
+	"startTime": 1686039300, "endTime": 1686430800,
+	"links": [ "https://wandbox.org/permlink/yxJDwEmgRQ7zBPMf" ],
+	"problems": [
+		{ "id": 5163, "index": "A", "title": "Isn’t It Funny How a Bear Likes Honey?" },
+		{ "id": 10025, "index": "B", "title": "게으른 백곰" },
+		{ "id": 24771, "index": "C", "title": "Un-bear-able Zoo" },
+		{ "id": 25918, "index": "D", "title": "북극곰은 괄호를 찢어" },
+		{ "id": 12914, "index": "E", "title": "곰을 위한 레스토랑" },
+		{ "id": 25200, "index": "F", "title": "곰곰이와 자판기" },
+		{ "id": 27732, "index": "G", "title": "숲 속의 과학자" }
+	],
+	"submissions": [
+		{ "handle": "tlsdydaud1", "id": 61771191, "problem": "F", "verdict": "AC", "time": 1686039922 },
+		{ "handle": "tlsdydaud1", "id": 61771209, "problem": "B", "verdict": "AC", "time": 1686039955 },
+		{ "handle": "tlsdydaud1", "id": 61771230, "problem": "A", "verdict": "AC", "time": 1686039983 },
+		{ "handle": "wizardrabbit", "id": 61775192, "problem": "C", "verdict": "WA", "time": 1686045687 },
+		{ "handle": "wizardrabbit", "id": 61785025, "problem": "C", "verdict": "AC", "time": 1686059661 },
+		{ "handle": "hibye1217", "id": 61796793, "problem": "D", "verdict": "AC", "time": 1686098048 },
+		{ "handle": "xhdtlsid2", "id": 61832049, "problem": "A", "verdict": "AC", "time": 1686148567 },
+		{ "handle": "wizardrabbit", "id": 61836956, "problem": "A", "verdict": "WA", "time": 1686163749 },
+		{ "handle": "wizardrabbit", "id": 61836975, "problem": "A", "verdict": "AC", "time": 1686163861 },
+		{ "handle": "hibye1217", "id": 61844980, "problem": "E", "verdict": "AC", "time": 1686196693 },
+		{ "handle": "xhdtlsid2", "id": 61871402, "problem": "B", "verdict": "AC", "time": 1686235852 },
+		{ "handle": "wizardrabbit", "id": 61887937, "problem": "B", "verdict": "RTE", "time": 1686289904 },
+		{ "handle": "wizardrabbit", "id": 61887974, "problem": "B", "verdict": "AC", "time": 1686289966 },
+		{ "handle": "wizardrabbit", "id": 61910792, "problem": "E", "verdict": "WA", "time": 1686332507 },
+		{ "handle": "wizardrabbit", "id": 61910845, "problem": "E", "verdict": "TLE", "time": 1686332703 },
+		{ "handle": "wizardrabbit", "id": 61910931, "problem": "E", "verdict": "AC", "time": 1686333212 },
+		{ "handle": "ai4youej", "id": 61938170, "problem": "B", "verdict": "AC", "time": 1686406406 },
+		{ "handle": "ai4youej", "id": 61938178, "problem": "B", "verdict": "AC", "time": 1686406419 },
+		{ "handle": "xhdtlsid2", "id": 61941034, "problem": "C", "verdict": "AC", "time": 1686412285 }
+	]
+},
+{
+	"incomplete": true,
+	"id": 91, "order": 84, "rated": true,
+	"title": "RD stands for", "creator": "xhdtlsid2"
 }]

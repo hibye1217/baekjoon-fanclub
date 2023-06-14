@@ -1,17 +1,11 @@
 const problems = [
-	{ "id": 28126, "index": "A", "title": "Space-A" },
-	{ "id": 28053, "index": "B", "title": "Simple Game" },
-	{ "id": 22880, "index": "C", "title": "봉화대" },
-	{ "id": 5463, "index": "D", "title": "건포도" },
-	{ "id": 10749, "index": "E", "title": "Superbull" },
-	{ "id": 18267, "index": "F", "title": "Milk Visits" },
-	{ "id": 23820, "index": "G", "title": "MEX" },
-	{ "id": 15708, "index": "H", "title": "미네크래프트" },
-	{ "id": 2220, "index": "I", "title": "힙 정렬" },
-	{ "id": 10605, "index": "J", "title": "드래곤 죽이기" },
-	{ "id": 1273, "index": "K", "title": "샷" },
-	{ "id": 25259, "index": "L", "title": "Art Collections" },
-	{ "id": 27877, "index": "M", "title": "제곱수 덱 2" }
+	{ "id": 5163, "index": "A", "title": "Isn’t It Funny How a Bear Likes Honey?" },
+	{ "id": 10025, "index": "B", "title": "게으른 백곰" },
+	{ "id": 24771, "index": "C", "title": "Un-bear-able Zoo" },
+	{ "id": 25918, "index": "D", "title": "북극곰은 괄호를 찢어" },
+	{ "id": 12914, "index": "E", "title": "곰을 위한 레스토랑" },
+	{ "id": 25200, "index": "F", "title": "곰곰이와 자판기" },
+	{ "id": 27732, "index": "G", "title": "숲 속의 과학자" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
