@@ -1,11 +1,16 @@
 const problems = [
-	{ "id": 5163, "index": "A", "title": "Isn’t It Funny How a Bear Likes Honey?" },
-	{ "id": 10025, "index": "B", "title": "게으른 백곰" },
-	{ "id": 24771, "index": "C", "title": "Un-bear-able Zoo" },
-	{ "id": 25918, "index": "D", "title": "북극곰은 괄호를 찢어" },
-	{ "id": 12914, "index": "E", "title": "곰을 위한 레스토랑" },
-	{ "id": 25200, "index": "F", "title": "곰곰이와 자판기" },
-	{ "id": 27732, "index": "G", "title": "숲 속의 과학자" }
+	{ "id": 20756, "index": "A", "title": "Fraction" },
+	{ "id": 25499, "index": "B", "title": "Tipover Transform" },
+	{ "id": 18082, "index": "C", "title": "Canvas Line" },
+	{ "id": 21930, "index": "D", "title": "Jewelry Size" },
+	{ "id": 17786, "index": "E", "title": "Efficient Exchange" },
+	{ "id": 25835, "index": "F", "title": "Lots of Towers of Hanoi" },
+	{ "id": 20662, "index": "G", "title": "Hop" },
+	{ "id": 20688, "index": "H", "title": "Cul-De-Sac Parades" },
+	{ "id": 17562, "index": "I", "title": "Mason’s Mark" },
+	{ "id": 13932, "index": "J", "title": "Exam Redistribution" },
+	{ "id": 18704, "index": "K", "title": "Awesome Shawarma" },
+	{ "id": 9919, "index": "L", "title": "Route" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
