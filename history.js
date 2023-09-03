@@ -43,7 +43,7 @@ async function main(){
 			if (x == 0){ td.innerHTML = "팬클럽 제작자"; }
 			else{
 				if (link === undefined){ td.innerHTML = "\"" + title + "\" 우승"; }
-				else if (link === []){
+				else if (link.length == 0){
 					td.innerHTML = "\"" + title + "\" 종료 후 무추첨 당첨"
 				}
 				else{

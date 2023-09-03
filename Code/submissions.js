@@ -1,16 +1,15 @@
 const problems = [
-	{ "id": 20756, "index": "A", "title": "Fraction" },
-	{ "id": 25499, "index": "B", "title": "Tipover Transform" },
-	{ "id": 18082, "index": "C", "title": "Canvas Line" },
-	{ "id": 21930, "index": "D", "title": "Jewelry Size" },
-	{ "id": 17786, "index": "E", "title": "Efficient Exchange" },
-	{ "id": 25835, "index": "F", "title": "Lots of Towers of Hanoi" },
-	{ "id": 20662, "index": "G", "title": "Hop" },
-	{ "id": 20688, "index": "H", "title": "Cul-De-Sac Parades" },
-	{ "id": 17562, "index": "I", "title": "Mason’s Mark" },
-	{ "id": 13932, "index": "J", "title": "Exam Redistribution" },
-	{ "id": 18704, "index": "K", "title": "Awesome Shawarma" },
-	{ "id": 9919, "index": "L", "title": "Route" }
+	{ "id": 28063, "index": "A", "title": "동전 복사" },
+	{ "id": 1455, "index": "B", "title": "뒤집기 II" },
+	{ "id": 27972, "index": "C", "title": "악보는 거들 뿐" },
+	{ "id": 10597, "index": "D", "title": "순열장난" },
+	{ "id": 12945, "index": "E", "title": "재미있는 박스 정리" },
+	{ "id": 20555, "index": "F", "title": "타자연습" },
+	{ "id": 22046, "index": "G", "title": "Mutating DNA" },
+	{ "id": 14847, "index": "H", "title": "수열과 변환" },
+	{ "id": 2454, "index": "I", "title": "트리 분할" },
+	{ "id": 1642, "index": "J", "title": "딱따구리" },
+	{ "id": 5471, "index": "K", "title": "Pyramid Base" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
