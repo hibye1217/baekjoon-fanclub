@@ -1,15 +1,13 @@
 const problems = [
-	{ "id": 28063, "index": "A", "title": "동전 복사" },
-	{ "id": 1455, "index": "B", "title": "뒤집기 II" },
-	{ "id": 27972, "index": "C", "title": "악보는 거들 뿐" },
-	{ "id": 10597, "index": "D", "title": "순열장난" },
-	{ "id": 12945, "index": "E", "title": "재미있는 박스 정리" },
-	{ "id": 20555, "index": "F", "title": "타자연습" },
-	{ "id": 22046, "index": "G", "title": "Mutating DNA" },
-	{ "id": 14847, "index": "H", "title": "수열과 변환" },
-	{ "id": 2454, "index": "I", "title": "트리 분할" },
-	{ "id": 1642, "index": "J", "title": "딱따구리" },
-	{ "id": 5471, "index": "K", "title": "Pyramid Base" }
+	{ "id": 25828, "index": "A", "title": "Corona Virus Testing" },
+	{ "id": 2606, "index": "B", "title": "바이러스" },
+	{ "id": 9241, "index": "C", "title": "바이러스 복제" },
+	{ "id": 18882, "index": "D", "title": "Cowntact Tracing" },
+	{ "id": 18877, "index": "E", "title": "Social Distancing" },
+	{ "id": 20647, "index": "F", "title": "Cowntagion" },
+	{ "id": 7575, "index": "G", "title": "바이러스" },
+	{ "id": 25616, "index": "H", "title": "사회적 거리두기" },
+	{ "id": 20672, "index": "I", "title": "대세는 바이러스야" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
