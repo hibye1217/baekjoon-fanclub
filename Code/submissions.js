@@ -1,13 +1,21 @@
 const problems = [
-	{ "id": 25828, "index": "A", "title": "Corona Virus Testing" },
-	{ "id": 2606, "index": "B", "title": "바이러스" },
-	{ "id": 9241, "index": "C", "title": "바이러스 복제" },
-	{ "id": 18882, "index": "D", "title": "Cowntact Tracing" },
-	{ "id": 18877, "index": "E", "title": "Social Distancing" },
-	{ "id": 20647, "index": "F", "title": "Cowntagion" },
-	{ "id": 7575, "index": "G", "title": "바이러스" },
-	{ "id": 25616, "index": "H", "title": "사회적 거리두기" },
-	{ "id": 20672, "index": "I", "title": "대세는 바이러스야" }
+	{ "id": 30394, "index": "A", "title": "회전하지 않는 캘리퍼스" },
+	{ "id": 17093, "index": "B", "title": "Total Circle" },
+	{ "id": 14842, "index": "C", "title": "재홍의 사다리" },
+	{ "id": 2121, "index": "D", "title": "넷이 놀기" },
+	{ "id": 3042, "index": "E", "title": "트리플렛" },
+	{ "id": 14930, "index": "F", "title": "구슬 (BEAD)" },
+	{ "id": 19950, "index": "G", "title": "3차원 막대기 연결하기" },
+	{ "id": 22236, "index": "H", "title": "가희와 비행기" },
+	{ "id": 5405, "index": "I", "title": "프랙탈 거리" },
+	{ "id": 26654, "index": "J", "title": "원점" },
+	{ "id": 11572, "index": "K", "title": "확률 실험" },
+	{ "id": 27990, "index": "L", "title": "가지 볶음 (Easy)" },
+	{ "id": 11873, "index": "M", "title": "최대 직사각형" },
+	{ "id": 16885, "index": "N", "title": "벡터의 합" },
+	{ "id": 30790, "index": "O", "title": "확장 공사" },
+	{ "id": 24487, "index": "P", "title": "Multiple Choice Test" },
+	{ "id": 3873, "index": "Q", "title": "Intersection of Two Prisms" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
