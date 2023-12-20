@@ -1,21 +1,18 @@
 const problems = [
-	{ "id": 30394, "index": "A", "title": "회전하지 않는 캘리퍼스" },
-	{ "id": 17093, "index": "B", "title": "Total Circle" },
-	{ "id": 14842, "index": "C", "title": "재홍의 사다리" },
-	{ "id": 2121, "index": "D", "title": "넷이 놀기" },
-	{ "id": 3042, "index": "E", "title": "트리플렛" },
-	{ "id": 14930, "index": "F", "title": "구슬 (BEAD)" },
-	{ "id": 19950, "index": "G", "title": "3차원 막대기 연결하기" },
-	{ "id": 22236, "index": "H", "title": "가희와 비행기" },
-	{ "id": 5405, "index": "I", "title": "프랙탈 거리" },
-	{ "id": 26654, "index": "J", "title": "원점" },
-	{ "id": 11572, "index": "K", "title": "확률 실험" },
-	{ "id": 27990, "index": "L", "title": "가지 볶음 (Easy)" },
-	{ "id": 11873, "index": "M", "title": "최대 직사각형" },
-	{ "id": 16885, "index": "N", "title": "벡터의 합" },
-	{ "id": 30790, "index": "O", "title": "확장 공사" },
-	{ "id": 24487, "index": "P", "title": "Multiple Choice Test" },
-	{ "id": 3873, "index": "Q", "title": "Intersection of Two Prisms" }
+	{ "id": 27920, "index": "A", "title": "카드 뒤집기" },
+	{ "id": 21605, "index": "B", "title": "아름다운 수열" },
+	{ "id": 23048, "index": "C", "title": "자연수 색칠하기" },
+	{ "id": 30297, "index": "D", "title": "Irreducible Permutation" },
+	{ "id": 17954, "index": "E", "title": "투튜브" },
+	{ "id": 27489, "index": "F", "title": "Matching Numbers" },
+	{ "id": 23116, "index": "G", "title": "AND" },
+	{ "id": 10923, "index": "H", "title": "정렬하기" },
+	{ "id": 17384, "index": "I", "title": "대진표" },
+	{ "id": 30920, "index": "J", "title": "수열 선물받기" },
+	{ "id": 17512, "index": "K", "title": "Gosu 2" },
+	{ "id": 16711, "index": "L", "title": "Erasing Matrix" },
+	{ "id": 2323, "index": "M", "title": "강강술래" },
+	{ "id": 19540, "index": "N", "title": "인버스 ㄷㄷㄷㅈ" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
