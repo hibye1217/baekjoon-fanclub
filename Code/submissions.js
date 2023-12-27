@@ -1,18 +1,16 @@
 const problems = [
-	{ "id": 27920, "index": "A", "title": "카드 뒤집기" },
-	{ "id": 21605, "index": "B", "title": "아름다운 수열" },
-	{ "id": 23048, "index": "C", "title": "자연수 색칠하기" },
-	{ "id": 30297, "index": "D", "title": "Irreducible Permutation" },
-	{ "id": 17954, "index": "E", "title": "투튜브" },
-	{ "id": 27489, "index": "F", "title": "Matching Numbers" },
-	{ "id": 23116, "index": "G", "title": "AND" },
-	{ "id": 10923, "index": "H", "title": "정렬하기" },
-	{ "id": 17384, "index": "I", "title": "대진표" },
-	{ "id": 30920, "index": "J", "title": "수열 선물받기" },
-	{ "id": 17512, "index": "K", "title": "Gosu 2" },
-	{ "id": 16711, "index": "L", "title": "Erasing Matrix" },
-	{ "id": 2323, "index": "M", "title": "강강술래" },
-	{ "id": 19540, "index": "N", "title": "인버스 ㄷㄷㄷㅈ" }
+	{ "id": 8184, "index": "A", "title": "Guilds" },
+	{ "id": 8142, "index": "B", "title": "Ridges and Valleys" },
+	{ "id": 11984, "index": "C", "title": "Lights Out (Gold)" },
+	{ "id": 1905, "index": "D", "title": "상자 쌓기" },
+	{ "id": 8198, "index": "E", "title": "Frog" },
+	{ "id": 8230, "index": "F", "title": "Squarks" },
+	{ "id": 8239, "index": "G", "title": "Taxis" },
+	{ "id": 10004, "index": "H", "title": "Bytecomputer" },
+	{ "id": 8243, "index": "I", "title": "Triumphal arch" },
+	{ "id": 8192, "index": "J", "title": "Sheep" },
+	{ "id": 8193, "index": "K", "title": "킹세종" },
+	{ "id": 10007, "index": "L", "title": "레이저" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
