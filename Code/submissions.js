@@ -1,16 +1,15 @@
 const problems = [
-	{ "id": 8184, "index": "A", "title": "Guilds" },
-	{ "id": 8142, "index": "B", "title": "Ridges and Valleys" },
-	{ "id": 11984, "index": "C", "title": "Lights Out (Gold)" },
-	{ "id": 1905, "index": "D", "title": "상자 쌓기" },
-	{ "id": 8198, "index": "E", "title": "Frog" },
-	{ "id": 8230, "index": "F", "title": "Squarks" },
-	{ "id": 8239, "index": "G", "title": "Taxis" },
-	{ "id": 10004, "index": "H", "title": "Bytecomputer" },
-	{ "id": 8243, "index": "I", "title": "Triumphal arch" },
-	{ "id": 8192, "index": "J", "title": "Sheep" },
-	{ "id": 8193, "index": "K", "title": "킹세종" },
-	{ "id": 10007, "index": "L", "title": "레이저" }
+	{ "id": 2774, "index": "A", "title": "아름다운 수" },
+	{ "id": 24524, "index": "B", "title": "아름다운 문자열" },
+	{ "id": 14293, "index": "C", "title": "Beautiful Numbers (Large)" },
+	{ "id": 2829, "index": "D", "title": "아름다운 행렬" },
+	{ "id": 2871, "index": "E", "title": "아름다운 단어" },
+	{ "id": 14044, "index": "F", "title": "Phonomenal Reviews" },
+	{ "id": 19609, "index": "G", "title": "Swapping Seats" },
+	{ "id": 10548, "index": "H", "title": "BOB" },
+	{ "id": 8212, "index": "I", "title": "Temperature" },
+	{ "id": 11777, "index": "J", "title": "남욱이의 썩은 계란판" },
+	{ "id": 14695, "index": "K", "title": "Shifty Grid" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
