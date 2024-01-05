@@ -10,19 +10,25 @@
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 	<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	<link rel="stylesheet" href="../index.css"> <link rel="stylesheet" href="./index.css">
-	<script src="../util.js"></script> <script src="./history.js"></script>
+	<script src="../util.js"></script> <script src="./scoreboard.js"></script>
 	<title>🥞 팬클럽 아카이브</title>
+	<style>
+		.problemCell{ width: 120px; min-width: 120px; line-height: 100%; }
+		.problemCell > *{ margin: 5px; }
+	</style>
 </head>
 <body onload="main()">
 	<header>
 		<h1>팬클럽 - 스코어보드</h1>
-		<p><a href="https://www.acmicpc.net/group/14615">참여 링크</a></p>
+		<p>
+			<a href="https://www.acmicpc.net/group/14615">참여 링크</a>
+			<a href="./history.html">역사 보기</a>
+			<a href="./problem.html">기출 문제</a>
+			<a href="./ranking.html">유저 랭킹</a>
+		</p>
 	</header>
 	<section style="display: flex; justify-content: center">
-		<table id="scoreboard-table" style="width: 80%">
-			<thead></thead>
-			<tbody></tbody>
-		</table>
+
 	</section>
 </body>
 </html>

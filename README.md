@@ -1,7 +1,7 @@
 # baekjoon-fanclub
-Baekjoon Online Judge [공식 팬클럽](https://www.acmicpc.net/group/14615)
+Baekjoon Online Judge [공식 팬클럽](https://www.acmicpc.net/group/14615)의 데이터가 모아진 곳.
 
-여기는 뭐하는 곳일까
+나중에 웹을 더욱 더욱 더더욱 배우고 난 뒤에는 훨씬 모던한 사이트를 만들 수 있지 않을까?
 
 ### result.json 읽는 방법
 - `incomplete`: 현재 진행 중인 셋으로, 아래 정보 중 일부가 누락되어있을 수 있음을 나타냅니다.
