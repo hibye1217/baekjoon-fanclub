@@ -7432,7 +7432,6 @@
 	]
 },
 {
-	"incomplete": true,
 	"id": 116, "order": 109, "rated": true,
 	"title": "문제 제출 이벤트", "creator": "iamgamja",
 	"startTime": 1704344400, "endTime": 1705122000,
