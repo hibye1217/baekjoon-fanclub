@@ -1,15 +1,14 @@
 const problems = [
-	{ "id": 2774, "index": "A", "title": "아름다운 수" },
-	{ "id": 24524, "index": "B", "title": "아름다운 문자열" },
-	{ "id": 14293, "index": "C", "title": "Beautiful Numbers (Large)" },
-	{ "id": 2829, "index": "D", "title": "아름다운 행렬" },
-	{ "id": 2871, "index": "E", "title": "아름다운 단어" },
-	{ "id": 14044, "index": "F", "title": "Phonomenal Reviews" },
-	{ "id": 19609, "index": "G", "title": "Swapping Seats" },
-	{ "id": 10548, "index": "H", "title": "BOB" },
-	{ "id": 8212, "index": "I", "title": "Temperature" },
-	{ "id": 11777, "index": "J", "title": "남욱이의 썩은 계란판" },
-	{ "id": 14695, "index": "K", "title": "Shifty Grid" }
+	{ "id": 1216, "index": "A", "title": "충무공 이순신" },
+	{ "id": 1313, "index": "B", "title": "합성소수" },
+	{ "id": 1883, "index": "C", "title": "1&&3" },
+	{ "id": 1962, "index": "D", "title": "한글 ㄴㄴ 수" },
+	{ "id": 2009, "index": "E", "title": "Minecraft" },
+	{ "id": 2048, "index": "F", "title": "Hello, 2048!" },
+	{ "id": 2356, "index": "G", "title": "제곱 ㄷㄷ 수" },
+	{ "id": 2390, "index": "H", "title": "⎐" },
+	{ "id": 2746, "index": "I", "title": "좋은 배열 만들기" },
+	{ "id": 10947, "index": "J", "title": "로또" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
