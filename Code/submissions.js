@@ -1,14 +1,9 @@
 const problems = [
-	{ "id": 1216, "index": "A", "title": "충무공 이순신" },
-	{ "id": 1313, "index": "B", "title": "합성소수" },
-	{ "id": 1883, "index": "C", "title": "1&&3" },
-	{ "id": 1962, "index": "D", "title": "한글 ㄴㄴ 수" },
-	{ "id": 2009, "index": "E", "title": "Minecraft" },
-	{ "id": 2048, "index": "F", "title": "Hello, 2048!" },
-	{ "id": 2356, "index": "G", "title": "제곱 ㄷㄷ 수" },
-	{ "id": 2390, "index": "H", "title": "⎐" },
-	{ "id": 2746, "index": "I", "title": "좋은 배열 만들기" },
-	{ "id": 10947, "index": "J", "title": "로또" }
+	{ "id": 1167, "index": "A", "title": "트리의 지름" },
+	{ "id": 28219, "index": "B", "title": "주유소" },
+	{ "id": 23572, "index": "C", "title": "Logistical Warehouse 2" },
+	{ "id": 20990, "index": "D", "title": "Perfect Path Patrol" },
+	{ "id": 22199, "index": "E", "title": "Cat in a tree" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
