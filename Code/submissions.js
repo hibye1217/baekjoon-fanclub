@@ -1,9 +1,14 @@
 const problems = [
-	{ "id": 1167, "index": "A", "title": "트리의 지름" },
-	{ "id": 28219, "index": "B", "title": "주유소" },
-	{ "id": 23572, "index": "C", "title": "Logistical Warehouse 2" },
-	{ "id": 20990, "index": "D", "title": "Perfect Path Patrol" },
-	{ "id": 22199, "index": "E", "title": "Cat in a tree" }
+	{ "id": 9913, "index": "A", "title": "Max" },
+	{ "id": 19694, "index": "B", "title": "Sorting" },
+	{ "id": 9844, "index": "C", "title": "Gecko" },
+	{ "id": 9822, "index": "D", "title": "Global Warming" },
+	{ "id": 9885, "index": "E", "title": "Claws" },
+	{ "id": 9826, "index": "F", "title": "Pancake" },
+	{ "id": 9898, "index": "G", "title": "Domino" },
+	{ "id": 28495, "index": "H", "title": "Topical" },
+	{ "id": 19669, "index": "I", "title": "Firefighting" },
+	{ "id": 19672, "index": "J", "title": "Feast" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
@@ -16,7 +21,7 @@ for (let i = table.length-1; i >= 0; i--){
 
 	const handle = tr[1].innerText;
 	const id = tr[0].innerText;
-	const index = tr[2].children[1].dataset.originalId; const problem = map[index];
+	const index = parseInt(tr[2].children[1].innerText); const problem = map[index];
 	const verdict = tr[3].children[0].dataset.color.toUpperCase();
 	const time = tr[8].children[0].dataset.timestamp;
 
