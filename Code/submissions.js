@@ -1,14 +1,14 @@
 const problems = [
-	{ "id": 9913, "index": "A", "title": "Max" },
-	{ "id": 19694, "index": "B", "title": "Sorting" },
-	{ "id": 9844, "index": "C", "title": "Gecko" },
-	{ "id": 9822, "index": "D", "title": "Global Warming" },
-	{ "id": 9885, "index": "E", "title": "Claws" },
-	{ "id": 9826, "index": "F", "title": "Pancake" },
-	{ "id": 9898, "index": "G", "title": "Domino" },
-	{ "id": 28495, "index": "H", "title": "Topical" },
-	{ "id": 19669, "index": "I", "title": "Firefighting" },
-	{ "id": 19672, "index": "J", "title": "Feast" }
+	{ "id": 1247, "index": "A", "title": "부호" },
+	{ "id": 17127, "index": "B", "title": "벚꽃이 정보섬에 피어난 이유" },
+	{ "id": 14632, "index": "C", "title": "고급 작품" },
+	{ "id": 1569, "index": "D", "title": "정사각형으로 가리기" },
+	{ "id": 1186, "index": "E", "title": "직사각형 색칠하기" },
+	{ "id": 1272, "index": "F", "title": "특별 노드" },
+	{ "id": 1506, "index": "G", "title": "경찰서" },
+	{ "id": 2416, "index": "H", "title": "문" },
+	{ "id": 2032, "index": "I", "title": "피라미드" },
+	{ "id": 11797, "index": "J", "title": "수행평가 2" }
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
