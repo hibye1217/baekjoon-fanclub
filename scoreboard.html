@@ -13,8 +13,12 @@
 	<script src="../util.js"></script> <script src="./scoreboard.js"></script>
 	<title>🥞 팬클럽 아카이브</title>
 	<style>
-		.problemCell{ width: 120px; min-width: 120px; line-height: 100%; }
-		.problemCell > *{ margin: 5px; }
+		.headerRow{ height: 50px; }
+		.headerCell{ min-width: 120px; line-height: 120% }
+
+		.row{ height: 50px; }
+		.accepted{ background-color: #99FF99; line-height: 120% }
+		.failed{ background-color: #FF9999; line-height: 120% }
 	</style>
 </head>
 <body onload="main()">
@@ -28,30 +32,23 @@
 		</p>
 	</header>
 	<section>
-		<h2>[105] Round 99: One-Off</h2>
+		<h2 id="round-text"></h2>
+		<h3 id="creator-text"></h3>
 	</section>
-	<section style="display: flex; justify-content: center">
-		<table id="scoreboard-table" style="width: 80%">
-			<tr>
-				<th>Contestant</th>
-				<th>Solved</th>
-				<th>A</th>
-				<th>B</th>
-				<th>C</th>
-				<th>D</th>
-				<th>E</th>
-			</tr>
-			<tr>
-				<td>hibye1217</td>
-				<td>3 <span style="font-size: 0.8em">/ 5 <span style="color: #BBBBBB">35.000%</span></span></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr></tr>
-		</table>
+	<section style="display: flex; justify-content: center;">
+		<div style="width: 80%; display: flex; justify-content: center;">
+			<div id="scoreboard-left" style="overflow-x: auto; width: 25%">
+				<table style="width: 100%">
+					<tr class="headerRow">
+						<th style="width: 3%">Count</th>
+						<th style="width: 22%">Contestant</th>
+					</tr>
+				</table>
+			</div>
+			<div id="scoreboard-right" style="overflow-x: auto; width: 75%">
+				<table style="width: 100%"></table>
+			</div>
+		</div>
 	</section>
 </body>
 </html>
