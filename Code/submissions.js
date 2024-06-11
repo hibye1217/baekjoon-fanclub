@@ -1,14 +1,12 @@
 const problems = [
-	{ "id": 1247, "index": "A", "title": "부호" },
-	{ "id": 17127, "index": "B", "title": "벚꽃이 정보섬에 피어난 이유" },
-	{ "id": 14632, "index": "C", "title": "고급 작품" },
-	{ "id": 1569, "index": "D", "title": "정사각형으로 가리기" },
-	{ "id": 1186, "index": "E", "title": "직사각형 색칠하기" },
-	{ "id": 1272, "index": "F", "title": "특별 노드" },
-	{ "id": 1506, "index": "G", "title": "경찰서" },
-	{ "id": 2416, "index": "H", "title": "문" },
-	{ "id": 2032, "index": "I", "title": "피라미드" },
-	{ "id": 11797, "index": "J", "title": "수행평가 2" }
+	{ "id": 1876, "index": "A", "title": "튕기는 볼링공" },
+	{ "id": 19535, "index": "B", "title": "ㄷㄷㄷㅈ" },
+	{ "id": 26156, "index": "C", "title": "나락도 락이다" },
+	{ "id": 25498, "index": "D", "title": "핸들 뭘로 하지" },
+	{ "id": 16933, "index": "E", "title": "벽 부수고 이동하기 3" },
+	{ "id": 24505, "index": "F", "title": "blobhyperthink" },
+	{ "id": 18863, "index": "G", "title": "풀 한 포기 친구 얼굴" },
+	{ "id": 24124, "index": "H", "title": "高速道路 (Highway)" },
 ];
 let map = Array(30000);
 problems.forEach(p => { map[p.id] = p.index; });
