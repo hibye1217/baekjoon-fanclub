@@ -1,14 +1,16 @@
 const problems = [
-	{ "id": 1876, "index": "A", "title": "튕기는 볼링공" },
-	{ "id": 19535, "index": "B", "title": "ㄷㄷㄷㅈ" },
-	{ "id": 26156, "index": "C", "title": "나락도 락이다" },
-	{ "id": 25498, "index": "D", "title": "핸들 뭘로 하지" },
-	{ "id": 16933, "index": "E", "title": "벽 부수고 이동하기 3" },
-	{ "id": 24505, "index": "F", "title": "blobhyperthink" },
-	{ "id": 18863, "index": "G", "title": "풀 한 포기 친구 얼굴" },
-	{ "id": 24124, "index": "H", "title": "高速道路 (Highway)" },
+	{ "id": 32068, "index": "A", "title": "보물 찾기" },
+	{ "id": 23627, "index": "B", "title": "driip" },
+	{ "id": 3699, "index": "C", "title": "주차 빌딩" },
+	{ "id": 9518, "index": "D", "title": "로마 카톨릭 미사" },
+	{ "id": 2175, "index": "E", "title": "땅 자르기" },
+	{ "id": 27534, "index": "F", "title": "좋은 문자열 만들기" },
+	{ "id": 30640, "index": "G", "title": "운전 연습" },
+	{ "id": 10335, "index": "H", "title": "There is No Alternative" },
+	{ "id": 28863, "index": "I", "title": "Кошелёк" },
+	{ "id": 12880, "index": "J", "title": "그래프 차이 최소" }
 ];
-let map = Array(30000);
+let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
 
 const table = document.getElementById('status-table').children[1].children;
