@@ -1,14 +1,15 @@
 const problems = [
-	{ "id": 32068, "index": "A", "title": "보물 찾기" },
-	{ "id": 23627, "index": "B", "title": "driip" },
-	{ "id": 3699, "index": "C", "title": "주차 빌딩" },
-	{ "id": 9518, "index": "D", "title": "로마 카톨릭 미사" },
-	{ "id": 2175, "index": "E", "title": "땅 자르기" },
-	{ "id": 27534, "index": "F", "title": "좋은 문자열 만들기" },
-	{ "id": 30640, "index": "G", "title": "운전 연습" },
-	{ "id": 10335, "index": "H", "title": "There is No Alternative" },
-	{ "id": 28863, "index": "I", "title": "Кошелёк" },
-	{ "id": 12880, "index": "J", "title": "그래프 차이 최소" }
+	{ "id": 22343, "index": "A", "title": "괄호의 값 비교" },
+	{ "id": 14622, "index": "B", "title": "소수 게임" },
+	{ "id": 21942, "index": "C", "title": "부품 대여장" },
+	{ "id": 19236, "index": "D", "title": "청소년 상어" },
+	{ "id": 2573, "index": "E", "title": "빙산" },
+	{ "id": 16722, "index": "F", "title": "결! 합!" },
+	{ "id": 17085, "index": "G", "title": "십자가 2개 놓기" },
+	{ "id": 27942, "index": "H", "title": ":danceplant:" },
+	{ "id": 21772, "index": "I", "title": "가희의 고구마 먹방" },
+	{ "id": 19238, "index": "J", "title": "스타트 택시" },
+	{ "id": 14499, "index": "K", "title": "주사위 굴리기" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
