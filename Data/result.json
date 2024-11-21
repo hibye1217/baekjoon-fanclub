@@ -10035,7 +10035,7 @@
 	"submissions": [
 		{ "handle": "polariche", "id": 86275779, "problem": "B", "verdict": "AC", "time": 1731246318 },
 		{ "handle": "polariche", "id": 86328582, "problem": "E", "verdict": "CE", "time": 1731362557 },
-		{ "handle": "polariche", "id": 86328586, "problem": "E", "verdict": "CE", "time": 1731362585 }
+		{ "handle": "polariche", "id": 86328586, "problem": "E", "verdict": "CE", "time": 1731362585 },
 		{ "handle": "polariche", "id": 86328590, "problem": "E", "verdict": "WA", "time": 1731362597 },
 		{ "handle": "polariche", "id": 86328627, "problem": "E", "verdict": "WA", "time": 1731363541 },
 		{ "handle": "polariche", "id": 86328663, "problem": "E", "verdict": "WA", "time": 1731363878 },
