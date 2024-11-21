@@ -1,15 +1,11 @@
 const problems = [
-	{ "id": 22343, "index": "A", "title": "괄호의 값 비교" },
-	{ "id": 14622, "index": "B", "title": "소수 게임" },
-	{ "id": 21942, "index": "C", "title": "부품 대여장" },
-	{ "id": 19236, "index": "D", "title": "청소년 상어" },
-	{ "id": 2573, "index": "E", "title": "빙산" },
-	{ "id": 16722, "index": "F", "title": "결! 합!" },
-	{ "id": 17085, "index": "G", "title": "십자가 2개 놓기" },
-	{ "id": 27942, "index": "H", "title": ":danceplant:" },
-	{ "id": 21772, "index": "I", "title": "가희의 고구마 먹방" },
-	{ "id": 19238, "index": "J", "title": "스타트 택시" },
-	{ "id": 14499, "index": "K", "title": "주사위 굴리기" }
+	{ "id": 2521, "index": "A", "title": "팬케이크 사랑 2" },
+	{ "id": 2520, "index": "B", "title": "팬케이크 사랑" },
+	{ "id": 2715, "index": "C", "title": "상범 마법 팬케이크 하우스" },
+	{ "id": 2759, "index": "D", "title": "팬케이크 뒤집기" },
+	{ "id": 24728, "index": "E", "title": "팬케이크맛 쿠키" },
+	{ "id": 12744, "index": "F", "title": "팬케이크 쌓기" },
+	{ "id": 27474, "index": "G", "title": "팬케이크 탑" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
