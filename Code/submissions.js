@@ -1,11 +1,14 @@
 const problems = [
-	{ "id": 2521, "index": "A", "title": "팬케이크 사랑 2" },
-	{ "id": 2520, "index": "B", "title": "팬케이크 사랑" },
-	{ "id": 2715, "index": "C", "title": "상범 마법 팬케이크 하우스" },
-	{ "id": 2759, "index": "D", "title": "팬케이크 뒤집기" },
-	{ "id": 24728, "index": "E", "title": "팬케이크맛 쿠키" },
-	{ "id": 12744, "index": "F", "title": "팬케이크 쌓기" },
-	{ "id": 27474, "index": "G", "title": "팬케이크 탑" }
+ { "id": 11058, "index": "A", "title": "크리보드" },
+{ "id": 16740, "index": "B", "title": "Arithmetic Progressions" },
+{ "id": 26839, "index": "C", "title": "Flappy Bird" },
+{ "id": 8314, "index": "D", "title": "Acyclic Decomposition" },
+{ "id": 16745, "index": "E", "title": "What Goes Up Must Come Down" },
+{ "id": 17166, "index": "F", "title": "Voronoi Diagram Again" },
+{ "id": 27364, "index": "G", "title": "Floppy" },
+{ "id": 26659, "index": "H", "title": "소떡소떡 2" },
+{ "id": 27200, "index": "I", "title": "Loop around Lake" },
+{ "id": 17737, "index": "J", "title": "Scarecrows" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });

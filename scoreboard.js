@@ -111,5 +111,5 @@ async function main(){
 			}
 			RtableTag.appendChild(tr);
 		}
-	}
+	} loadMathJax();
 }
