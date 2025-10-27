@@ -15860,19 +15860,24 @@
 },
 {
 	"id": 177, "order": 170, "rated": true,
-	"title": "✬✭✮✬✮✬✮✭✯✭✭✯✮✮", "creator": "Unknown",
+	"title": "✬✭✮✬✮✬✮✭✯✭✭✯✮✮", "creator": "pani",
 	"startTime": 1750021200, "endTime": 1750021200,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1387657217213464598" ],
 	"problems": [
-		{ "id": 11058, "index": "A", "title": "크리보드" },
-		{ "id": 16740, "index": "B", "title": "Arithmetic Progressions" },
-		{ "id": 26839, "index": "C", "title": "Flappy Bird" },
-		{ "id": 8314, "index": "D", "title": "Acyclic Decomposition" },
-		{ "id": 16745, "index": "E", "title": "What Goes Up Must Come Down" },
-		{ "id": 17166, "index": "F", "title": "Voronoi Diagram Again" },
-		{ "id": 27364, "index": "G", "title": "Floppy" },
-		{ "id": 26659, "index": "H", "title": "소떡소떡 2" },
-		{ "id": 27200, "index": "I", "title": "Loop around Lake" },
-		{ "id": 17737, "index": "J", "title": "Scarecrows" }
+		{ "id": 16505, "index": "A", "title": "별" },
+		{ "id": 29894, "index": "B", "title": "별자리" },
+		{ "id": 16151, "index": "C", "title": "별자리" },
+		{ "id": 2859, "index": "D", "title": "별 관찰" },
+		{ "id": 30681, "index": "E", "title": "별 포획" },
+		{ "id": 30679, "index": "F", "title": "별 가두기" },
+		{ "id": 12923, "index": "G", "title": "별 모으기" },
+		{ "id": 5588, "index": "H", "title": "별자리 찾기" },
+		{ "id": 31227, "index": "I", "title": "별 보러 가자" },
+		{ "id": 4386, "index": "J", "title": "별자리 만들기" },
+		{ "id": 31873, "index": "K", "title": "별 수호자 룰루" },
+		{ "id": 18252, "index": "L", "title": "별이 빛나는 밤에" },
+		{ "id": 30683, "index": "M", "title": "별이 빛나는 밤 (Hard)" },
+		{ "id": 26219, "index": "N", "title": "별꽃의 세레나데 (Hard)" }
 	],
 	"submissions": [
 		{ "handle": "qvixnh22", "id": 95119109, "problem": "A", "verdict": "AC", "time": 1749209928 },
@@ -15932,8 +15937,9 @@
 },
 {
 	"id": 178, "order": 171, "rated": true,
-	"title": "γεωμετρία", "creator": "Unknown",
+	"title": "γεωμετρία", "creator": "parkky",
 	"startTime": 1750934700, "endTime": 1750934700,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1390329125163503666" ],
 	"problems": [
 		{ "id": 17597, "index": "A", "title": "Zipline" },
 		{ "id": 16522, "index": "B", "title": "Building a Field" },
@@ -15999,8 +16005,9 @@
 },
 {
 	"id": 179, "order": 172, "rated": true,
-	"title": "👀", "creator": "Unknown",
+	"title": "👀", "creator": "polariche",
 	"startTime": 1751608800, "endTime": 1751608800,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1393933189155655764" ],
 	"problems": [
 		{ "id": 32217, "index": "A", "title": "광선 다각형 만들기" },
 		{ "id": 1876, "index": "B", "title": "튕기는 볼링공" },
@@ -16022,8 +16029,9 @@
 },
 {
 	"id": 180, "order": 173, "rated": true,
-	"title": "열심히 하면 됨", "creator": "Unknown",
+	"title": "열심히 하면 됨", "creator": "qvixnh22",
 	"startTime": 1752506220, "endTime": 1752506220,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1397906668314038403" ],
 	"problems": [
 		{ "id": 1390, "index": "A", "title": "테트리스" },
 		{ "id": 2540, "index": "B", "title": "계란" },
@@ -16079,8 +16087,9 @@
 },
 {
 	"id": 181, "order": 174, "rated": true,
-	"title": "직보", "creator": "Unknown",
+	"title": "직보", "creator": "sorohue",
 	"startTime": 1753423200, "endTime": 1753423200,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1400344137039085639" ],
 	"problems": [
 		{ "id": 17369, "index": "1", "title": "유령의 집" },
 		{ "id": 22882, "index": "2", "title": "시험 문제 출제" },
@@ -16103,8 +16112,9 @@
 },
 {
 	"id": 182, "order": 175, "rated": true,
-	"title": "TODO.", "creator": "Unknown",
+	"title": "TODO.", "creator": "qvixnh22",
 	"startTime": 1754657220, "endTime": 1754657220,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1407586631908589609" ],
 	"problems": [
 		{ "id": 2803, "index": "A", "title": "내가 어렸을 때 가지고 놀던 장난감" },
 		{ "id": 5466, "index": "B", "title": "상인" },
@@ -16148,8 +16158,9 @@
 },
 {
 	"id": 183, "order": 176, "rated": true,
-	"title": "노래 오래 부를래 (https://youtube.com/playlist?list=PLuGKNbtSd0r2fECcCngLalY7C5eEARjcK&si=4pe0GpD925qH4sy4)", "creator": "Unknown",
+	"title": "노래 오래 부를래 (https://youtube.com/playlist?list=PLuGKNbtSd0r2fECcCngLalY7C5eEARjcK&si=4pe0GpD925qH4sy4)", "creator": "oh040411",
 	"startTime": 1755685800, "endTime": 1755685800,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1412439587342651452" ],
 	"problems": [
 		{ "id": 34129, "index": "A", "title": "노래 오래 부를래" },
 		{ "id": 30821, "index": "B", "title": "별자리가 될 수 있다면" },
@@ -16264,8 +16275,9 @@
 },
 {
 	"id": 184, "order": 177, "rated": true,
-	"title": "수제 바이럴", "creator": "Unknown",
+	"title": "수제 바이럴", "creator": "nflight11",
 	"startTime": 1756825200, "endTime": 1756825200,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1415160606583033856" ],
 	"problems": [
 		{ "id": 18972, "index": "1", "title": "Gnutella Chessmaster" },
 		{ "id": 27948, "index": "2", "title": "가지 자르기" },
@@ -16375,8 +16387,9 @@
 },
 {
 	"id": 185, "order": 178, "rated": true,
-	"title": "84.390", "creator": "Unknown",
+	"title": "84.390", "creator": "sorohue",
 	"startTime": 1757480400, "endTime": 1757480400,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1418283348111003759" ],
 	"problems": [
 		{ "id": 29133, "index": "A", "title": "Фома и занимательная математика" },
 		{ "id": 8669, "index": "B", "title": "Las" },
@@ -16411,8 +16424,9 @@
 },
 {
 	"id": 186, "order": 179, "rated": true,
-	"title": "그리디-디피-기하", "creator": "Unknown",
+	"title": "그리디-디피-기하", "creator": "iamgamja",
 	"startTime": 1758250800, "endTime": 1758250800,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1422816950001729587" ],
 	"problems": [
 		{ "id": 2650, "index": "A", "title": "교차점개수" },
 		{ "id": 2013, "index": "B", "title": "선그리기" },
@@ -16451,8 +16465,9 @@
 },
 {
 	"id": 187, "order": 180, "rated": true,
-	"title": "북마크 별 찍기", "creator": "Unknown",
+	"title": "북마크 별 찍기", "creator": "plan_pt",
 	"startTime": 1759374000, "endTime": 1759374000,
+	"links": [ "https://discord.com/channels/857583541440348170/980759555082420245/1428795154373808178" ],
 	"problems": [
 		{ "id": 1506, "index": "A", "title": "경찰서" },
 		{ "id": 1766, "index": "B", "title": "문제집" },
@@ -16526,7 +16541,7 @@
 },
 {
 	"id": 188, "order": 181, "rated": true,
-	"title": "rm 혹", "creator": "Unknown",
+	"title": "rm 혹", "creator": "sorohue",
 	"startTime": 1760788800, "endTime": 1761393600,
 	"problems": [
 		{ "id": 30866, "index": "A", "title": "NOT a SAT problem" },
