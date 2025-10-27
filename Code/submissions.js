@@ -1,14 +1,15 @@
 const problems = [
- { "id": 11058, "index": "A", "title": "크리보드" },
-{ "id": 16740, "index": "B", "title": "Arithmetic Progressions" },
-{ "id": 26839, "index": "C", "title": "Flappy Bird" },
-{ "id": 8314, "index": "D", "title": "Acyclic Decomposition" },
-{ "id": 16745, "index": "E", "title": "What Goes Up Must Come Down" },
-{ "id": 17166, "index": "F", "title": "Voronoi Diagram Again" },
-{ "id": 27364, "index": "G", "title": "Floppy" },
-{ "id": 26659, "index": "H", "title": "소떡소떡 2" },
-{ "id": 27200, "index": "I", "title": "Loop around Lake" },
-{ "id": 17737, "index": "J", "title": "Scarecrows" }
+{ "id": 30866, "index": "A", "title": "NOT a SAT problem" },
+{ "id": 32944, "index": "B", "title": "잘못된 LIS 알고리즘" },
+{ "id": 33803, "index": "C", "title": "Lost Civilization" },
+{ "id": 28240, "index": "D", "title": "S리그" },
+{ "id": 33602, "index": "E", "title": "Mascot Naming" },
+{ "id": 26880, "index": "F", "title": "Triangeltal" },
+{ "id": 32105, "index": "G", "title": "James Ferraro - Live at Primavera Sound 2012" },
+{ "id": 31570, "index": "H", "title": "섬" },
+{ "id": 33371, "index": "I", "title": "Bit Component" },
+{ "id": 33589, "index": "J", "title": "Funny or Scary?" },
+{ "id": 34211, "index": "K", "title": "Duplicated Binary Strings" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });

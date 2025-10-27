@@ -2,7 +2,7 @@ const table = document.getElementsByTagName('table')[0].children[1].children
 
 const cornerCase = "2023학년도 대학수학능력평가 파싱영역 (짝수형)";
 
-let result = ""; let order = 16;
+let result = ""; let order = 131;
 for (let i = table.length-1; i >= 1; i--){
 	const tr = table[i].children;
 
