@@ -1,15 +1,19 @@
 const problems = [
-{ "id": 30866, "index": "A", "title": "NOT a SAT problem" },
-{ "id": 32944, "index": "B", "title": "잘못된 LIS 알고리즘" },
-{ "id": 33803, "index": "C", "title": "Lost Civilization" },
-{ "id": 28240, "index": "D", "title": "S리그" },
-{ "id": 33602, "index": "E", "title": "Mascot Naming" },
-{ "id": 26880, "index": "F", "title": "Triangeltal" },
-{ "id": 32105, "index": "G", "title": "James Ferraro - Live at Primavera Sound 2012" },
-{ "id": 31570, "index": "H", "title": "섬" },
-{ "id": 33371, "index": "I", "title": "Bit Component" },
-{ "id": 33589, "index": "J", "title": "Funny or Scary?" },
-{ "id": 34211, "index": "K", "title": "Duplicated Binary Strings" }
+{ "id": 29263, "index": "A", "title": "Штурм" },
+{ "id": 29292, "index": "B", "title": "X частей" },
+{ "id": 30077, "index": "C", "title": "Dviračių lenktynės" },
+{ "id": 12803, "index": "D", "title": "Peter and the Textbook" },
+{ "id": 25089, "index": "E", "title": "3D Printing" },
+{ "id": 3218, "index": "F", "title": "spam" },
+{ "id": 25596, "index": "G", "title": "마트료시카 박스 II" },
+{ "id": 25598, "index": "H", "title": "Alive or Dead?" },
+{ "id": 31092, "index": "I", "title": "스티커 재배치" },
+{ "id": 27991, "index": "J", "title": "고장난 프린터" },
+{ "id": 32181, "index": "K", "title": "트트리리와 쿼리" },
+{ "id": 31988, "index": "L", "title": "문제 제목 뭐라 짓지" },
+{ "id": 30243, "index": "M", "title": "🧩 N-Queen (Hard)" },
+{ "id": 33843, "index": "N", "title": "∀nnihilation" },
+{ "id": 27949, "index": "O", "title": "가지 볶음" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
