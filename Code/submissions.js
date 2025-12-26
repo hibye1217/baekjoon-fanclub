@@ -1,19 +1,21 @@
 const problems = [
-{ "id": 29263, "index": "A", "title": "Штурм" },
-{ "id": 29292, "index": "B", "title": "X частей" },
-{ "id": 30077, "index": "C", "title": "Dviračių lenktynės" },
-{ "id": 12803, "index": "D", "title": "Peter and the Textbook" },
-{ "id": 25089, "index": "E", "title": "3D Printing" },
-{ "id": 3218, "index": "F", "title": "spam" },
-{ "id": 25596, "index": "G", "title": "마트료시카 박스 II" },
-{ "id": 25598, "index": "H", "title": "Alive or Dead?" },
-{ "id": 31092, "index": "I", "title": "스티커 재배치" },
-{ "id": 27991, "index": "J", "title": "고장난 프린터" },
-{ "id": 32181, "index": "K", "title": "트트리리와 쿼리" },
-{ "id": 31988, "index": "L", "title": "문제 제목 뭐라 짓지" },
-{ "id": 30243, "index": "M", "title": "🧩 N-Queen (Hard)" },
-{ "id": 33843, "index": "N", "title": "∀nnihilation" },
-{ "id": 27949, "index": "O", "title": "가지 볶음" }
+ { "id": 23364, "index": "A", "title": "Almost Always" },
+{ "id": 10517, "index": "B", "title": "Radar Coverage" },
+{ "id": 8483, "index": "C", "title": "Earthquake" },
+{ "id": 10891, "index": "D", "title": "Cactus? Not cactus?" },
+{ "id": 24598, "index": "E", "title": "Diagonals" },
+{ "id": 25012, "index": "F", "title": "마법의 다이얼" },
+{ "id": 17421, "index": "G", "title": "빗물이 넘쳐흘러" },
+{ "id": 13974, "index": "H", "title": "파일 합치기 2" },
+{ "id": 16994, "index": "I", "title": "로프와 쿼리" },
+{ "id": 17459, "index": "J", "title": "Fruit Tree" },
+{ "id": 7777, "index": "K", "title": "병원" },
+{ "id": 14960, "index": "L", "title": "Strongly Matchable" },
+{ "id": 3121, "index": "M", "title": "빨간점, 파란점" },
+{ "id": 3763, "index": "N", "title": "스도쿠" },
+{ "id": 17636, "index": "O", "title": "가로등" },
+{ "id": 18945, "index": "P", "title": "조작된 ㄱ 폭탄 게임" },
+{ "id": 18163, "index": "Q", "title": "Binary Matrix" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
