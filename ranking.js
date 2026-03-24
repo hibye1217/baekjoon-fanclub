@@ -47,7 +47,7 @@ async function main(){
 			data[i].createCount += (data[i].created[j] ? +1 : +0);
 		}
 	}
-	data.sort((a, b) => (a.practiceCount != b.practiceCount ? b.practiceCount - a.practiceCount : b.solveCount - a.solveCount));
+	data.sort((a, b) => (a.createCount != b.createCount ? b.createCount - a.createCount : a.practiceCount != b.practiceCount ? b.practiceCount - a.practiceCount : b.solveCount - a.solveCount));
 	
 	const table = document.getElementById('scoreboard-table').children[1];
 	let rank = 0; for (let i = 0; i < data.length; i++){
@@ -63,9 +63,14 @@ async function main(){
 			td.innerHTML = data[i].name;
 			tr.appendChild(td);
 		}
+		{ // CreationCount
+			const td = document.createElement('td');
+			td.innerHTML = data[i].createCount;
+			tr.appendChild(td);
+		}
 		{ // PracticeCount
 			const td = document.createElement('td');
-			td.innerHTML = data[i].practiceCount + " <span style='font-size: 0.7em; color: #BBBBBB'>" + data[i].createCount + "회 제작</span>";
+			td.innerHTML = data[i].practiceCount;
 			tr.appendChild(td);
 		}
 		{ // SolveCount
