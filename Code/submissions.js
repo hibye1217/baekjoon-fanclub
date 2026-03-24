@@ -1,21 +1,18 @@
 const problems = [
- { "id": 23364, "index": "A", "title": "Almost Always" },
-{ "id": 10517, "index": "B", "title": "Radar Coverage" },
-{ "id": 8483, "index": "C", "title": "Earthquake" },
-{ "id": 10891, "index": "D", "title": "Cactus? Not cactus?" },
-{ "id": 24598, "index": "E", "title": "Diagonals" },
-{ "id": 25012, "index": "F", "title": "마법의 다이얼" },
-{ "id": 17421, "index": "G", "title": "빗물이 넘쳐흘러" },
-{ "id": 13974, "index": "H", "title": "파일 합치기 2" },
-{ "id": 16994, "index": "I", "title": "로프와 쿼리" },
-{ "id": 17459, "index": "J", "title": "Fruit Tree" },
-{ "id": 7777, "index": "K", "title": "병원" },
-{ "id": 14960, "index": "L", "title": "Strongly Matchable" },
-{ "id": 3121, "index": "M", "title": "빨간점, 파란점" },
-{ "id": 3763, "index": "N", "title": "스도쿠" },
-{ "id": 17636, "index": "O", "title": "가로등" },
-{ "id": 18945, "index": "P", "title": "조작된 ㄱ 폭탄 게임" },
-{ "id": 18163, "index": "Q", "title": "Binary Matrix" }
+ { "id": 12243, "index": "A", "title": "Part Elf (Large)" },
+{ "id": 32657, "index": "B", "title": "게임 오브 데쓰 (Hard)" },
+{ "id": 20128, "index": "C", "title": "Parity Constraint Shortest Path" },
+{ "id": 34811, "index": "D", "title": "붉은색 푸른색 그 사이 $i$초 그 짧은 시간" },
+{ "id": 35060, "index": "E", "title": "겨울 축제 2" },
+{ "id": 21993, "index": "F", "title": "Is It Rated?" },
+{ "id": 15994, "index": "G", "title": "엘리베이터 2" },
+{ "id": 35061, "index": "H", "title": "에린의 룬 경로" },
+{ "id": 17899, "index": "I", "title": "Symmetric Polynomials" },
+{ "id": 33359, "index": "J", "title": "Many Many Cycles" },
+{ "id": 18952, "index": "K", "title": "Algebra on Segment" },
+{ "id": 31354, "index": "L", "title": "Tri-color Spanning Tree" },
+{ "id": 21106, "index": "M", "title": "One More Problem About DFT" },
+{ "id": 16646, "index": "N", "title": "Game with Polynomials" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
