@@ -13,10 +13,10 @@ async function main(){
 			if (result[nxt].order == x+1 && result[nxt].rated){ break; }
 			else{ nxt += 1; }
 		}
-		if (nxt >= len){ break; }
+		//if (nxt >= len){ break; }
 
 		const title = result[now].title;
-		const handle = result[nxt].creator;
+		const handle = (nxt == len ? "[FINISHED]" : result[nxt].creator);
 		const link = result[now].links;
 
 		const tr = document.createElement('tr');
@@ -71,7 +71,9 @@ async function main(){
 						}
 						res += "</a>";
 						if (i+1 != selected.length){ res += " 후 "; }
-					} td.innerHTML = res;
+					}
+					if (selected.length == 0){ res = "\"" + title + "\" 종료"; }
+					td.innerHTML = res;
 				}
 			}
 			tr.appendChild(td);
