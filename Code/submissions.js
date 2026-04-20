@@ -1,18 +1,14 @@
 const problems = [
- { "id": 12243, "index": "A", "title": "Part Elf (Large)" },
-{ "id": 32657, "index": "B", "title": "게임 오브 데쓰 (Hard)" },
-{ "id": 20128, "index": "C", "title": "Parity Constraint Shortest Path" },
-{ "id": 34811, "index": "D", "title": "붉은색 푸른색 그 사이 $i$초 그 짧은 시간" },
-{ "id": 35060, "index": "E", "title": "겨울 축제 2" },
-{ "id": 21993, "index": "F", "title": "Is It Rated?" },
-{ "id": 15994, "index": "G", "title": "엘리베이터 2" },
-{ "id": 35061, "index": "H", "title": "에린의 룬 경로" },
-{ "id": 17899, "index": "I", "title": "Symmetric Polynomials" },
-{ "id": 33359, "index": "J", "title": "Many Many Cycles" },
-{ "id": 18952, "index": "K", "title": "Algebra on Segment" },
-{ "id": 31354, "index": "L", "title": "Tri-color Spanning Tree" },
-{ "id": 21106, "index": "M", "title": "One More Problem About DFT" },
-{ "id": 16646, "index": "N", "title": "Game with Polynomials" }
+{ "id": 21623, "index": "A", "title": "Game" },
+{ "id": 5946, "index": "B", "title": "The Trough Game" },
+{ "id": 31531, "index": "C", "title": "공들의 리듬게임" },
+{ "id": 33517, "index": "D", "title": "징검다리 게임" },
+{ "id": 34820, "index": "E", "title": "똥 피하기 게임" },
+{ "id": 26010, "index": "F", "title": "돈 피하지 않기 게임" },
+{ "id": 26871, "index": "G", "title": "IQ Game" },
+{ "id": 34343, "index": "H", "title": "카드 게임" },
+{ "id": 18942, "index": "I", "title": "고인물의 새로운 리듬게임" },
+{ "id": 25351, "index": "J", "title": "중간 구간 게임" }
 ];
 let map = Array();
 problems.forEach(p => { map[p.id] = p.index; });
